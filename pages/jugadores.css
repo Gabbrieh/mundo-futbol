@@ -50,7 +50,7 @@ body {
   left: 0;
   right: 0;
   bottom: 0;
-  height: 8px; /* Grosor de la línea */
+  height: 8px;
   background: linear-gradient(270deg, #9b0041 0, #9b0041 48%, #0018b4 52%, #0018b4);
   z-index: 1;
 }
@@ -88,6 +88,31 @@ body {
   margin-top: 30px;
 }
 
+.botones_posiciones {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  padding: 20px 0;
+  border-radius: 12px;
+
+}
+
+.btn-posicion {
+  font-family: mark-bold, Arial, sans-serif;
+  background: none;
+  border: 2px solid #ffd700;
+  color: #ffd700;
+  padding: 10px 24px;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s, color 0.2s;
+}
+
+.btn-posicion:hover {
+  background: #ffd700;
+  color: #181733;
+}
+
 .jugadores_grid {
   display: flex;
   gap: 24px; 
@@ -114,21 +139,79 @@ body {
 .jugador_fondo {
   width: 100%;
   height: 100%;
-  padding: 18px 8px 14px 8px;
   display: flex;
   flex-direction: column;
   align-items: center;
   background-clip: padding-box;
 }
 
+/* NUEVO: Efecto dorsal y barra animada */
+.jugador_foto_container {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 1/1;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .jugador_foto {
-  width: 90%;
-  aspect-ratio: 1 / 1;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
-  margin-bottom: 12px;
-  border: none;
   display: block;
+}
+
+.jugador_dorsal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0%);
+  font-size: 64px;
+  color: rgba(255, 255, 255, 0.5);
+  font-family: 'mark-bold', Arial, sans-serif;
+  pointer-events: none;
+  z-index: 2;
+  text-shadow: 0 2px 8px #181733;
+}
+
+.jugador_barra {
+  flex-direction: column;
+  position: absolute;
+  bottom: -50%;
+  width: 100%;
+  height: 25%;
+  background: rgba(24, 23, 51, 0.95);
+  color: #ffd700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 20px;
+  font-family: 'mark-bold', Arial, sans-serif;
+  transition: bottom 0.35s cubic-bezier(.4,2,.6,1);
+  z-index: 3;
+}
+
+.jugador_foto_container:hover .jugador_barra {
+  bottom: 0;
+}
+
+.jugador_nombre {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 10px 0 8px 0;
+  font-size: 28px;
+  font-family: 'mark-bold', Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  z-index: 2;
+  background: linear-gradient(0deg, rgba(24,23,51,0.95) 80%, rgba(24,23,51,0.3) 100%, transparent 100%);
+  vertical-align: middle;
+  box-shadow: 0 -2px 8px rgba(0,0,0,0.18);
 }
 
 .jugador_club {
@@ -137,16 +220,6 @@ body {
   color: #ffd700;
   font-weight: bold;
   z-index: 1;
-}
-
-.jugador_nombre {
-  margin-top: 10px;
-  font-size: 28px;
-  font-family: 'mark-bold', Arial, sans-serif;
-  color: #fff;
-  text-align: center;
-  z-index: 1;
-  vertical-align: middle;
 }
 
 .jugador_posicion {
@@ -169,4 +242,31 @@ body {
   gap: 24px;
   margin: 40px 0 40px 0px;
   padding: 0 200px;
+}
+
+.footer_container {
+  padding-top: 5px;
+  background-color: var(--white-100);
+  color: var(--blue-100);
+  font-family: 'mark-bold', Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.social_media {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  padding: 20px; 
+}
+
+.social_icon {
+  fill: var(--blue-100);
+  height: 20px;
+  width: 20px;
+}
+
+.social_media img:hover {
+  transform: scale(1.5); 
 }
