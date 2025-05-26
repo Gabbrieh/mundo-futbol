@@ -80,44 +80,65 @@ body {
   vertical-align: middle;
 }
 
+.jugadores_backgroud {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 1.6rem 1.6rem 0 0;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 20px 20px 28px 20px;
+  margin: 40px 260px 40px 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
 .title_jugadores {
-  font-size: 40px;
+  font-size: 30px;
   font-family: 'mark-bold', Arial, sans-serif;
-  color: #ffd700;
+  color: var(--blue-100);
   text-align: center;
-  margin-top: 30px;
+  padding-top: 10px;
 }
 
 .botones_posiciones {
   display: flex;
   justify-content: center;
   gap: 5px;
-  padding: 20px 0;
-  border-radius: 12px;
-
+  padding: 15px 0;
 }
 
 .btn-posicion {
   font-family: mark-bold, Arial, sans-serif;
   background: none;
-  border: 2px solid #ffd700;
-  color: #ffd700;
-  padding: 10px 24px;
-  border-radius: 8px;
+  color: var(--black-100);
+  padding: 4px 8px;   
+  font-size: 12px;      
+  border-radius: .2rem;
   cursor: pointer;
   transition: background 0.2s, color 0.2s;
+  border: none;
+  background-color: #f8f8f8;
+  box-shadow: 0 .1rem .2rem 0 rgba(0, 0, 0, .15);
+  word-spacing: normal;
+  text-transform: uppercase;
 }
 
 .btn-posicion:hover {
-  background: #ffd700;
-  color: #181733;
+  background: var(--blue-100);
+  color: #ffffff;
 }
 
 .jugadores_grid {
   display: flex;
   gap: 24px; 
+  margin: 25px 0;
+  padding: 0 20px; 
+}
+
+.jugadores_grid_secundario {
+  display: flex;
+  gap: 24px; 
   margin: 30px 0;
-  padding: 0 200px; 
+  padding: 0 20px; 
 }
 
 .jugador_card {
@@ -130,10 +151,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-}
-
-.jugador_card:hover {
-  transform: translateY(-8px) scale(1);
 }
 
 .jugador_fondo {
@@ -234,13 +251,6 @@ body {
   height: 22px;
   vertical-align: middle;
   border-radius: 4px;
-}
-
-.jugadores_grid_secundario {
-  display: flex;
-  gap: 24px;
-  margin: 40px 0 40px 0px;
-  padding: 0 200px;
 }
 
 .footer_container {

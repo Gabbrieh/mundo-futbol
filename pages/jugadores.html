@@ -1,146 +1,311 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/src/images/logo_oficial.png" type="image/x-icon">
-  <link rel="stylesheet" href="../pages/jugadores.css">
-  <title>Jugadores - Mundo fútbol</title>
-</head>
-<body class="home_background">
-  <header class="header">
-    <nav class="header_navegation">
-      <ul class="links_container fc-condensed">
-        <li>
-          <a href="../index.html">
-            <img src="/src/images/logo_oficial.png" class="logo_pag" alt="Logo Página">
-          </a>
-        </li>
-        <li><a href="../index.html">Inicio</a></li>
-        <li><a href="#">Fichajes</a></li>
-        <li><a href="#">Jugadores</a></li>
-        <li><a href="#">Ligas</a></li>
-      </ul>
-      <ul class="secondary_navegation fc-condensed">
-        <li><a href="#">Buscar</a></li>
-        <li>
-          <a href="#">
-            <img src="/src/images/search-white.svg" alt="Ícono de búsqueda" class="search_icon">
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-<main>
-  <p class="title_jugadores">JUGADORES DESTACADOS</p>
-<div class="botones_posiciones">
-  <button class="btn-posicion" data-posicion="Arquero">ARQUERO</button>
-  <button class="btn-posicion" data-posicion="Defensa">DEFENSA</button>
-  <button class="btn-posicion" data-posicion="Centrocampista">CENTROCAMPISTA</button>
-  <button class="btn-posicion" data-posicion="Atacante">ATACANTE</button>
-</div>
-  <div class="jugadores_grid">
-<div class="jugador_card" data-posicion="Atacante">
-  <div class="jugador_fondo">
-    <div class="jugador_foto_container">
-      <img class="jugador_foto" src="../src/images/lamine.jpg" alt="Lamine Yamal">
-      <div class="jugador_dorsal">19</div>
-<div class="jugador_barra">
-  <div class="jugador_club">
-    <img src="../src/images/barcelona.png" alt="FC Barcelona" class="club_icon">
-    <span>FC Barcelona</span>
-  </div>
-  <div class="jugador_posicion">Atacante</div>
-</div>
-      <div class="jugador_nombre">LAMINE YAMAL</div>
-    </div>
-  </div>
-</div>
-<div class="jugador_card" data-posicion="Atacante">
-  <div class="jugador_fondo">
-    <div class="jugador_foto_container">
-      <img class="jugador_foto" src="../src/images/kikimbappe.jpg" alt="KYLIAN MBAPPÉ">
-      <div class="jugador_dorsal">9</div>
-<div class="jugador_barra">
-  <div class="jugador_club">
-    <img src="../src/images/real_madrid.png" alt="real_madrid" class="club_icon">
-    <span>Real Madrid</span>
-  </div>
-  <div class="jugador_posicion">Atacante</div>
-</div>
-      <div class="jugador_nombre">KYLIAN MBAPPÉ</div>
-    </div>
-  </div>
-</div>
-<div class="jugador_card" data-posicion="Atacante">
-  <div class="jugador_fondo">
-    <div class="jugador_foto_container">
-      <img class="jugador_foto" src="../src/images/vinicius.jpg" alt="vinicius">
-      <div class="jugador_dorsal">7</div>
-<div class="jugador_barra">
-  <div class="jugador_club">
-    <img src="../src/images/real_madrid.png" alt="real_madrid" class="club_icon">
-    <span>Real Madrid</span>
-  </div>
-  <div class="jugador_posicion">Atacante</div>
-</div>
-      <div class="jugador_nombre">VINICIUS JR</div>
-    </div>
-  </div>
-</div>
-<div class="jugador_card" data-posicion="Atacante">
-  <div class="jugador_fondo">
-    <div class="jugador_foto_container">
-      <img class="jugador_foto" src="../src/images/lautaro_martinez.jpg" alt="lautaro_martinez">
-      <div class="jugador_dorsal">10</div>
-<div class="jugador_barra">
-  <div class="jugador_club">
-    <img src="../src/images/inter.png" alt="Inter" class="club_icon">
-    <span>Inter de Milán</span>
-  </div>
-  <div class="jugador_posicion">Atacante</div>
-</div>
-      <div class="jugador_nombre">LAUTARO MARTÍNEZ</div>
-    </div>
-  </div>
-</div>
-</main>
-  <footer>
-    <section class="footer_container">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="/src/images/logo_oficial.png" type="image/x-icon" />
+    <link rel="stylesheet" href="../pages/jugadores.css" />
+    <title>Jugadores - Mundo fútbol</title>
+  </head>
+  <body class="home_background">
+    <header class="header">
+      <nav class="header_navegation">
+        <ul class="links_container fc-condensed">
+          <li>
+            <a href="../index.html">
+              <img
+                src="/src/images/logo_oficial.png"
+                class="logo_pag"
+                alt="Logo Página"
+              />
+            </a>
+          </li>
+          <li><a href="../index.html">INICIO</a></li>
+          <li><a href="../pages/jugadores.html">JUGADORES</a></li>
+          <li><a href="#">LIGAS</a></li>
+          <li><a href="#">FICHAJES</a></li>
+        </ul>
+        <ul class="secondary_navegation fc-condensed">
+          <li><a href="#">BUSCAR</a></li>
+          <li>
+            <a href="#">
+              <img
+                src="/src/images/search-white.svg"
+                alt="Ícono de búsqueda"
+                class="search_icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <div class="jugadores_backgroud">
+       <p class="title_jugadores">JUGADORES DESTACADOS</p>
+        <div class="botones_posiciones">
+          <button class="btn-posicion" data-posicion="Portero">PORTERO</button>
+          <button class="btn-posicion" data-posicion="Defensa">DEFENSA</button>
+          <button class="btn-posicion" data-posicion="Centrocampista">
+            CENTROCAMPISTA
+          </button>
+          <button class="btn-posicion" data-posicion="Atacante">
+            ATACANTE
+          </button>
+        </div>
+        <div class="jugadores_grid">
+          <div class="jugador_card" data-posicion="Atacante">
+            <div class="jugador_fondo">
+              <div class="jugador_foto_container">
+                <img
+                  class="jugador_foto"
+                  src="../src/images/lamine.jpg"
+                  alt="Lamine Yamal"
+                />
+                <div class="jugador_dorsal">19</div>
+                <div class="jugador_barra">
+                  <div class="jugador_club">
+                    <img
+                      src="../src/images/barcelona.png"
+                      alt="FC Barcelona"
+                      class="club_icon"
+                    />
+                    <span>FC Barcelona</span>
+                  </div>
+                  <div class="jugador_posicion">Atacante</div>
+                </div>
+                <div class="jugador_nombre">LAMINE YAMAL</div>
+              </div>
+            </div>
+          </div>
+          <div class="jugador_card" data-posicion="Atacante">
+            <div class="jugador_fondo">
+              <div class="jugador_foto_container">
+                <img
+                  class="jugador_foto"
+                  src="../src/images/kikimbappe.jpg"
+                  alt="KYLIAN MBAPPÉ"
+                />
+                <div class="jugador_dorsal">9</div>
+                <div class="jugador_barra">
+                  <div class="jugador_club">
+                    <img
+                      src="../src/images/real_madrid.png"
+                      alt="real_madrid"
+                      class="club_icon"
+                    />
+                    <span>Real Madrid</span>
+                  </div>
+                  <div class="jugador_posicion">Atacante</div>
+                </div>
+                <div class="jugador_nombre">KYLIAN MBAPPÉ</div>
+              </div>
+            </div>
+          </div>
+          <div class="jugador_card" data-posicion="Atacante">
+            <div class="jugador_fondo">
+              <div class="jugador_foto_container">
+                <img
+                  class="jugador_foto"
+                  src="../src/images/vinicius.jpg"
+                  alt="vinicius"
+                />
+                <div class="jugador_dorsal">7</div>
+                <div class="jugador_barra">
+                  <div class="jugador_club">
+                    <img
+                      src="../src/images/real_madrid.png"
+                      alt="real_madrid"
+                      class="club_icon"
+                    />
+                    <span>Real Madrid</span>
+                  </div>
+                  <div class="jugador_posicion">Atacante</div>
+                </div>
+                <div class="jugador_nombre">VINICIUS JR</div>
+              </div>
+            </div>
+          </div>
+          <div class="jugador_card" data-posicion="Atacante">
+            <div class="jugador_fondo">
+              <div class="jugador_foto_container">
+                <img
+                  class="jugador_foto"
+                  src="../src/images/lautaro_martinez.jpg"
+                  alt="lautaro_martinez"
+                />
+                <div class="jugador_dorsal">10</div>
+                <div class="jugador_barra">
+                  <div class="jugador_club">
+                    <img
+                      src="../src/images/inter.png"
+                      alt="Inter"
+                      class="club_icon"
+                    />
+                    <span>Inter de Milán</span>
+                  </div>
+                  <div class="jugador_posicion">Atacante</div>
+                </div>
+                <div class="jugador_nombre">LAUTARO MARTÍNEZ</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="jugadores_grid_secundario">
+          <div class="jugador_card" data-posicion="Atacante">
+            <div class="jugador_fondo">
+              <div class="jugador_foto_container">
+                <img
+                  class="jugador_foto"
+                  src="../src/images/haaland.jpg"
+                  alt="Lamine Yamal"
+                />
+                <div class="jugador_dorsal">9</div>
+                <div class="jugador_barra">
+                  <div class="jugador_club">
+                    <img
+                      src="../src/images/manchester_city.png"
+                      alt="manchester_city"
+                      class="club_icon"
+                    />
+                    <span>Manchester City</span>
+                  </div>
+                  <div class="jugador_posicion">Atacante</div>
+                </div>
+                <div class="jugador_nombre">ERLING HAALAND</div>
+              </div>
+            </div>
+          </div>
+          <div class="jugador_card" data-posicion="Atacante">
+            <div class="jugador_fondo">
+              <div class="jugador_foto_container">
+                <img
+                  class="jugador_foto"
+                  src="../src/images/harrykane.jpg"
+                  alt="harrykane"
+                />
+                <div class="jugador_dorsal">9</div>
+                <div class="jugador_barra">
+                  <div class="jugador_club">
+                    <img
+                      src="../src/images/bayern.png"
+                      alt="bayern_munich"
+                      class="club_icon"
+                    />
+                    <span>Bayern Múnich</span>
+                  </div>
+                  <div class="jugador_posicion">Atacante</div>
+                </div>
+                <div class="jugador_nombre">HARRY KANE</div>
+              </div>
+            </div>
+          </div>
+          <div class="jugador_card" data-posicion="Atacante">
+            <div class="jugador_fondo">
+              <div class="jugador_foto_container">
+                <img
+                  class="jugador_foto"
+                  src="../src/images/Lionel-Messi-2025.png"
+                  alt="lionel Messi"
+                />
+                <div class="jugador_dorsal">10</div>
+                <div class="jugador_barra">
+                  <div class="jugador_club">
+                    <img
+                      src="../src/images/inter_miami.png"
+                      alt="inter_miami"
+                      class="club_icon"
+                    />
+                    <span>Inter Miami CF</span>
+                  </div>
+                  <div class="jugador_posicion">Atacante</div>
+                </div>
+                <div class="jugador_nombre">LIONEL MESSI</div>
+              </div>
+            </div>
+          </div>
+          <div class="jugador_card" data-posicion="Atacante">
+            <div class="jugador_fondo">
+              <div class="jugador_foto_container">
+                <img
+                  class="jugador_foto"
+                  src="../src/images/cr7.jpg"
+                  alt="cr7"
+                />
+                <div class="jugador_dorsal">7</div>
+                <div class="jugador_barra">
+                  <div class="jugador_club">
+                    <img
+                      src="../src/images/alnassr.png"
+                      alt="al_nassr"
+                      class="club_icon"
+                    />
+                    <span>Al Nassr</span>
+                  </div>
+                  <div class="jugador_posicion">Atacante</div>
+                </div>
+                <div class="jugador_nombre">CRISTIANO RONALDO</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <section class="footer_container">
         <p>Síguenos en nuestras redes sociales</p>
         <div class="social_media">
-            <a href="https://www.facebook.com/" target="_blank">
-                <img src="../src/images/facebook.svg" alt="Facebook" class="social_icon">
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <img src="../src/images/instagram.svg" alt="Instagram" class="social_icon">
-            </a>
-            <a href="https://twitter.com/" target="_blank">
-                <img src="../src/images/twitter.svg" alt="Twitter" class="social_icon">
-            </a>
-            <a href="https://www.youtube.com/" target="_blank">
-                <img src="../src/images/youtube.svg" alt="YouTube" class="social_icon">
-            </a>
-            <a href="https://www.tiktok.com/" target="_blank">
-                <img src="../src/images/tik-tok.svg" alt="TikTok" class="social_icon">
-             </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img
+              src="../src/images/facebook.svg"
+              alt="Facebook"
+              class="social_icon"
+            />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img
+              src="../src/images/instagram.svg"
+              alt="Instagram"
+              class="social_icon"
+            />
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <img
+              src="../src/images/twitter.svg"
+              alt="Twitter"
+              class="social_icon"
+            />
+          </a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <img
+              src="../src/images/youtube.svg"
+              alt="YouTube"
+              class="social_icon"
+            />
+          </a>
+          <a href="https://www.tiktok.com/" target="_blank">
+            <img
+              src="../src/images/tik-tok.svg"
+              alt="TikTok"
+              class="social_icon"
+            />
+          </a>
         </div>
         <p>Mundo Fútbol © 2025 Todos los derechos reservados</p>
-    </section>
-</footer>
-<script>
-document.querySelectorAll('.btn-posicion').forEach(btn => {
-  btn.addEventListener('click', function() {
-    const pos = this.getAttribute('data-posicion');
-    document.querySelectorAll('.jugador_card').forEach(card => {
-      if (card.getAttribute('data-posicion') === pos) {
-        card.style.display = '';
-      } else {
-        card.style.display = 'none';
-      }
-    });
-  });
-});
-</script>
-</body>
+      </section>
+    </footer>
+    <script>
+      document.querySelectorAll(".btn-posicion").forEach((btn) => {
+        btn.addEventListener("click", function () {
+          const pos = this.getAttribute("data-posicion");
+          document.querySelectorAll(".jugador_card").forEach((card) => {
+            if (card.getAttribute("data-posicion") === pos) {
+              card.style.display = "";
+            } else {
+              card.style.display = "none";
+            }
+          });
+        });
+      });
+    </script>
+  </body>
 </html>
