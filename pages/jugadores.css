@@ -145,7 +145,6 @@ body {
   background-clip: padding-box;
 }
 
-/* NUEVO: Efecto dorsal y barra animada */
 .jugador_foto_container {
   position: relative;
   width: 100%;
