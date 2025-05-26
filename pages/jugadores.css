@@ -1,0 +1,172 @@
+/* fuentes */
+
+@font-face {
+  font-family: "mark-bold";
+  src: local("mark-bold"), url("../src/fonts/mark-bold.ttf");
+}
+
+:root {
+  --black-100: #000;
+  --white-100: #fff;
+  --blue-100: #181733;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: var(--blue-100);
+  font-family: "Segoe UI", sans-serif;
+  color: var(--white-100);
+  overflow-x: hidden; 
+}
+
+.header_navegation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: var(--blue-100);
+  position: relative; 
+}
+
+.header_navegation::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8px; /* Grosor de la línea */
+  background: linear-gradient(270deg, #9b0041 0, #9b0041 48%, #0018b4 52%, #0018b4);
+  z-index: 1;
+}
+
+.links_container,
+.secondary_navegation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  font-family: 'mark-bold', Arial, sans-serif;
+}
+
+.links_container li a:hover {
+  text-decoration: underline;
+}
+
+.logo_pag {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.search_icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+.title_jugadores {
+  font-size: 40px;
+  font-family: 'mark-bold', Arial, sans-serif;
+  color: #ffd700;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.jugadores_grid {
+  display: flex;
+  gap: 24px; 
+  margin: 30px 0;
+  padding: 0 200px; 
+}
+
+.jugador_card {
+  width: 100%; 
+  max-width: none;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.18);
+  background: #181733;
+  transition: transform 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.jugador_card:hover {
+  transform: translateY(-8px) scale(1);
+}
+
+.jugador_fondo {
+  width: 100%;
+  height: 100%;
+  padding: 18px 8px 14px 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-clip: padding-box;
+}
+
+
+.jugador_foto {
+  width: 90%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: none;
+  display: block;
+}
+
+.jugador_club {
+  margin-top: 8px;
+  font-size: 18px;
+  color: #ffd700;
+  font-weight: bold;
+  z-index: 1;
+}
+
+.jugador_nombre {
+  margin-top: 10px;
+  font-size: 28px;
+  font-family: 'mark-bold', Arial, sans-serif;
+  color: #fff;
+  text-align: center;
+  z-index: 1;
+  vertical-align: middle;
+}
+
+.jugador_posicion {
+  margin-top: 5px;
+  font-size: 15px;
+  color: #fff;
+  z-index: 1;
+  font-family: 'mark-bold', Arial, sans-serif;
+}
+
+.club_icon {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  border-radius: 4px;
+}
+
+.jugadores_grid_secundario {
+  display: flex;
+  gap: 24px;
+  margin: 40px 0 40px 0px;
+  padding: 0 200px;
+}
