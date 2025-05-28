@@ -127,23 +127,21 @@ body {
   color: #ffffff;
 }
 
-.jugadores_grid {
+.jugadores_grid,
+.jugadores_grid_secundario,
+#contenedor-jugadores {
   display: flex;
-  gap: 24px; 
-  margin: 25px 0;
-  padding: 0 20px; 
-}
-
-.jugadores_grid_secundario {
-  display: flex;
-  gap: 24px; 
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  padding: 0 20px;
   margin: 30px 0;
-  padding: 0 20px; 
 }
 
 .jugador_card {
-  width: 100%; 
   max-width: none;
+  width: calc(25% - 18px);
+  min-width: 220px;
   overflow: hidden;
   box-shadow: 0 2px 12px rgba(0,0,0,0.18);
   background: #181733;

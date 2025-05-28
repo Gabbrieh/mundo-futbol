@@ -1,0 +1,194 @@
+[
+  {
+    "nombre": "LAMINE YAMAL",
+    "dorsal": 19,
+    "posicion": "Atacante",
+    "club": "FC Barcelona",
+    "foto": "../src/assets/images/lamine.jpg",
+    "clubIcon": "../src/assets/images/barcelona.png"
+  },
+  {
+    "nombre": "KYLIAN MBAPPÉ",
+    "dorsal": 9,
+    "posicion": "Atacante",
+    "club": "Real Madrid",
+    "foto": "../src/assets/images/kikimbappe.jpg",
+    "clubIcon": "../src/assets/images/real_madrid.png"
+  },
+  {
+    "nombre": "VINICIUS JR",
+    "dorsal": 7,
+    "posicion": "Atacante",
+    "club": "Real Madrid",
+    "foto": "../src/assets/images/vinicius.jpg",
+    "clubIcon": "../src/assets/images/real_madrid.png"
+  },
+  {
+    "nombre": "LAUTARO MARTÍNEZ",
+    "dorsal": 10,
+    "posicion": "Atacante",
+    "club": "Inter de Milán",
+    "foto": "../src/assets/images/lautaro_martinez.jpg",
+    "clubIcon": "../src/assets/images/inter.png"
+  },
+  {
+    "nombre": "ERLING HAALAND",
+    "dorsal": 9,
+    "posicion": "Atacante",
+    "club": "Manchester City",
+    "foto": "../src/assets/images/haaland.jpg",
+    "clubIcon": "../src/assets/images/manchester_city.png"
+  },
+  {
+    "nombre": "HARRY KANE",
+    "dorsal": 9,
+    "posicion": "Atacante",
+    "club": "Bayern Múnich",
+    "foto": "../src/assets/images/harrykane.jpg",
+    "clubIcon": "../src/assets/images/bayern.png"
+  },
+  {
+    "nombre": "LIONEL MESSI",
+    "dorsal": 10,
+    "posicion": "Atacante",
+    "club": "Inter Miami CF",
+    "foto": "../src/assets/images/Lionel-Messi-2025.png",
+    "clubIcon": "../src/assets/images/inter_miami.png"
+  },
+  {
+    "nombre": "CRISTIANO RONALDO",
+    "dorsal": 7,
+    "posicion": "Atacante",
+    "club": "Al Nassr",
+    "foto": "../src/assets/images/cr7.jpg",
+    "clubIcon": "../src/assets/images/alnassr.png"
+  },
+  {
+    "nombre": "KEVIN DE BRUYNE",
+    "dorsal": 17,
+    "posicion": "Centrocampista",
+    "club": "Manchester City",
+    "foto": "../src/assets/images/kevin.jpg",
+    "clubIcon": "../src/assets/images/manchester_city.png"
+  },
+  {
+    "nombre": "ENZO FERNÁNDEZ",
+    "dorsal": 8,
+    "posicion": "Centrocampista",
+    "club": "Chelsea",
+    "foto": "../src/assets/images/enzofernandez.jpg",
+    "clubIcon": "../src/assets/images/chelsea.png"
+  },
+  {
+    "nombre": "PEDRI",
+    "dorsal": 8,
+    "posicion": "Centrocampista",
+    "club": "FC Barcelona",
+    "foto": "../src/assets/images/pedri.jpg",
+    "clubIcon": "../src/assets/images/barcelona.png"
+  },
+  {
+    "nombre": "JUDE BELLINGHAM",
+    "dorsal": 5,
+    "posicion": "Centrocampista",
+    "club": "Real Madrid",
+    "foto": "../src/assets/images/jude.jpg",
+    "clubIcon": "../src/assets/images/real_madrid.png"
+  },
+  {
+    "nombre": "DECLAN RICE",
+    "dorsal": 41,
+    "posicion": "Centrocampista",
+    "club": "Arsenal",
+    "foto": "../src/assets/images/declan.jpg",
+    "clubIcon": "../src/assets/images/arsenal.png"
+  },
+   {
+    "nombre": "FEDERICO VALVERDE",
+    "dorsal": 8,
+    "posicion": "Centrocampista",
+    "club": "Real Madrid",
+    "foto": "../src/assets/images/valverde.jpg",
+    "clubIcon": "../src/assets/images/real_madrid.png"
+},
+  {
+    "nombre": "RODRI",
+    "dorsal": 14,
+    "posicion": "Centrocampista",
+    "club": "Manchester City",
+    "foto": "../src/assets/images/rodri.jpg",
+    "clubIcon": "../src/assets/images/manchester_city.png"
+},
+  {
+    "nombre": "ALEXIS MAC ALLISTER",
+    "dorsal": 10,
+    "posicion": "Centrocampista",
+    "club": "Liverpool",
+    "foto": "../src/assets/images/macallister.jpg",
+    "clubIcon": "../src/assets/images/liverpool.png"
+},
+  {
+    "nombre": "CRISTIAN ROMERO",
+    "dorsal": 17,
+    "posicion": "Defensa",
+    "club": "Tottenham",
+    "foto": "../src/assets/images/cristianromero.png",
+    "clubIcon": "../src/assets/images/tottenham.png"
+  },
+    {
+    "nombre": "RUBÉN DÍAS",
+    "dorsal": 3,
+    "posicion": "Defensa",
+    "club": "Manchester City",
+    "foto": "../src/assets/images/rubendias.jpg",
+    "clubIcon": "../src/assets/images/manchester_city.png"
+  },
+  {
+    "nombre": "VIRGIL VAN DIJK",
+    "dorsal": 4,
+    "posicion": "Defensa",
+    "club": "Liverpool",
+    "foto": "../src/assets/images/virgil.jpg",
+    "clubIcon": "../src/assets/images/liverpool.png"
+  },
+  {
+    "nombre": "LISANDRO MARTÍNEZ",
+    "dorsal": 6,
+    "posicion": "Defensa",
+    "club": "Manchester United",
+    "foto": "../src/assets/images/lisandro.jpg",
+    "clubIcon": "../src/assets/images/manchester_united.png"
+  },
+  {
+    "nombre": "RONALD ARAÚJO",
+    "dorsal": 4,
+    "posicion": "Defensa",
+    "club": "FC Barcelona",
+    "foto": "../src/assets/images/araujo.jpg",
+    "clubIcon": "../src/assets/images/barcelona.png"
+  },
+  {
+    "nombre": "WILLIAM SALIBA",
+    "dorsal": 12,
+    "posicion": "Defensa",
+    "club": "Arsenal",
+    "foto": "../src/assets/images/saliba.jpg",
+    "clubIcon": "../src/assets/images/arsenal.png"
+  },
+  {
+    "nombre": "JOSKO GVARDIOL",
+    "dorsal": 24,
+    "posicion": "Defensa",
+    "club": "Manchester City",
+    "foto": "../src/assets/images/joskogvardiol.jpg",
+    "clubIcon": "../src/assets/images/manchester_city.png"
+  },
+  {
+    "nombre": "PAU CUBARSI",
+    "dorsal": 2,
+    "posicion": "Defensa",
+    "club": "FC Barcelona",
+    "foto": "../src/assets/images/paucubarsi.jpg",
+    "clubIcon": "../src/assets/images/barcelona.png"
+  }
+]
