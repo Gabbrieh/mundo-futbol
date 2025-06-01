@@ -3,6 +3,7 @@
 @font-face {
   font-family: "mark-bold";
   src: local("mark-bold"), url("../assets/fonts/mark-bold.ttf");
+  font-display: swap;
 }
 
 :root {
@@ -39,7 +40,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
+  padding: 2rem;
   background-color: var(--blue-100);
 }
 
@@ -47,8 +48,8 @@ body {
 .secondary_navegation {
   display: flex;
   align-items: center;
-  gap: 20px;
-  font-size: 16px;
+  gap: 1rem;
+  font-size: 1rem;
   font-family: 'mark-bold', Arial, sans-serif;
 }
 
@@ -57,20 +58,18 @@ body {
 }
 
 .logo_pag {
-  width: 25px;
-  height: 25px;
+  width: 1.5em;
   vertical-align: middle;
 }
 
 .search_icon {
-  width: 15px;
-  height: 15px;
+  width: 1em;
   vertical-align: middle;
 }
 
 .secondary_header {
   background-color: var(--white-100);
-  padding: 20px 0;
+  padding: 1.25rem 0;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -78,7 +77,7 @@ body {
 .secondary_header_nav ul {
   display: flex;
   justify-content: center;
-  gap: 20px;
+  gap: 2rem;
   font-family: 'mark-bold', Arial, sans-serif;
 }
 
@@ -94,32 +93,24 @@ body {
 }
 
 .club_logo {
-  width: 20px; 
-  height: 20px;
-  margin-right: 5px; 
-  margin-left: 5px; 
+  width: 1.5em; 
+  margin-right: 0.3125rem; 
+  margin-left: 0.3125rem; 
   vertical-align: middle; 
 }
 
 .featured_container {
   display: flex;
-  gap: 100px;
-  padding: 40px;
+  gap: 3rem;
+  padding: 3rem;
   font-family: 'mark-bold', Arial, sans-serif;
-  background-image: linear-gradient(180deg, #181733 0%, rgba(24, 23, 51, 0) 10%, rgba(24, 23, 51, 0) 90%, #181733 100%);
-  background-blend-mode: overlay;
 }
-
-.logo_agenda {
-    width: 25px;
-    height: 25px;
-  }
 
 .upcoming_matches {
   background-color: var(--white-100); 
-  border-radius: 10px; 
+  border-radius: 1rem; 
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
-  padding: 15px; 
+  padding: 1rem; 
   display: flex;
   flex-direction: column;
 }
@@ -128,28 +119,24 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; 
-  gap: 10px; 
-  margin-bottom: 20px; 
+  gap: 1rem; 
+  margin-bottom: 1.25rem; 
   text-align: center;
-  width: 100%;
+  width: auto;
 }
 
 .upcoming_matches_header img.logo_pag {
-  width: 30px;
-  height: 30px;
+  width: 1.5em;
+  height: auto;
 }
 
 .upcoming_matches_header h2 {
-  font-size: 18px;
-  font-weight: bold;
+  font-size: 1.1rem;
   color: var(--blue-100);
-  margin: 0;
-  text-align: center; 
-  line-height: 30px; 
 }
 
 .match_card {
-  padding: 15px; 
+  padding: 1rem; 
   color: var(--blue-100);
   font-family: 'mark-bold', Arial, sans-serif;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -162,17 +149,16 @@ body {
 
 .match_teams {
   font-weight: bold; 
-  font-size: 16px;
-  margin-bottom: 5px;
+  font-size: 1.1rem;
+  margin-bottom: 0.3125rem;
   display: flex;
   align-items: center;
   justify-content: center; 
-  gap: 10px; 
+  gap: 1rem; 
 }
 
 .match_details {
-  font-size: 14px;
-  margin: 2px 0; 
+  font-size: 1rem;
 }
 
 .featured_news {
@@ -180,44 +166,37 @@ body {
   flex: 1;
 }
 
-.featured_card.large {
-  flex: 0 0 60%; 
-}
-
 .featured_card_group {
   display: flex;
   flex-direction: column;
   flex: 0 0 35%;
-  gap: 5px;
+  gap: 1rem;
 }
 
 .featured_card.small,
 .featured_card.small-below {
-  flex: 1; 
   max-width: 100%; 
+  padding-left: 3rem;
 }
 
 .featured_card img {
-  width: 85%; 
+  width: 100%; 
   height: auto;
+  aspect-ratio: 16 / 9; 
   object-fit: cover;
   border-radius: 10px;
   transition: transform 0.3s ease; 
+
 }
 
 .featured_card img:hover {
   transform: scale(1.02); 
 }
 
-.featured_card.large img {
-  width: 90%; 
-  height: 450px;
-  aspect-ratio: 16 / 9; 
-}
-
 .featured_card.small img,
 .featured_card.small-below img {
-  height: 270px; 
+  height: 250px;
+  object-fit: cover;
 }
 
 .featured_card h2,
@@ -228,7 +207,7 @@ body {
   background: none; 
   color: var(--white-100);
   text-align: left; 
-  width: 90%; 
+  width: 100%; 
 }
 
 .scrolling_text_container {
@@ -258,7 +237,7 @@ body {
   background-color: var(--white-100);
   color: var(--blue-100);
   font-family: 'mark-bold', Arial, sans-serif;
-  font-size: 16px;
+  font-size: 1rem;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
@@ -266,14 +245,14 @@ body {
 .social_media {
   display: flex;
   justify-content: center;
-  gap: 20px; 
-  padding: 20px; 
+  gap: 1.2rem; 
+  padding: 1.2rem; 
 }
 
 .social_icon {
   fill: var(--blue-100);
-  height: 20px;
-  width: 20px;
+  height: 1.2rem;
+  width: auto;
 }
 
 .social_media img:hover {
