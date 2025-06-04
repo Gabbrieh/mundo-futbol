@@ -33,7 +33,6 @@ body {
   background-color: var(--blue-100);
   font-family: "Segoe UI", sans-serif;
   color: var(--white-100);
-  overflow-x: hidden; 
 }
 
 .header_navegation {
@@ -72,6 +71,7 @@ body {
   padding: 1.25rem 0;
   text-align: center;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow-x: hidden; 
 }
 
 .secondary_header_nav ul {
@@ -93,10 +93,12 @@ body {
 }
 
 .club_logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 1.5em; 
-  margin-right: 0.3125rem; 
-  margin-left: 0.3125rem; 
-  vertical-align: middle; 
+  margin-right: 1px; 
+  margin-left: 1px; 
 }
 
 .featured_container {
@@ -154,7 +156,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: center; 
-  gap: 1rem; 
+  gap: 5px; 
 }
 
 .match_details {
@@ -201,7 +203,7 @@ body {
 
 .featured_card h2,
 .featured_card h3,
-.featured_card p {
+.featured_card-paragraph {
   margin: 10px 0;
   padding: 0;
   background: none; 
@@ -227,7 +229,8 @@ body {
 }
 
 .scrolling_text li {
-  display: inline-block;
+  display: flex;
+  gap: 5px;
   margin-right: 2rem; 
   white-space: nowrap; 
 }

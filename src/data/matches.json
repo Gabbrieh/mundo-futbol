@@ -1,0 +1,79 @@
+[
+  {
+    "home": "Manchester United",
+    "away": "Liverpool",
+    "homeLogo": "/src/assets/images/manchester_united.png",
+    "awayLogo": "/src/assets/images/liverpool.png",
+    "result": "0 - 1"
+  },
+  {
+    "home": "Barcelona",
+    "away": "Real Madrid",
+    "homeLogo": "/src/assets/images/barcelona.png",
+    "awayLogo": "/src/assets/images/real_madrid.png",
+    "result": "3 - 2"
+  },
+  {
+    "home": "Independiente",
+    "away": "Rosario Central",
+    "homeLogo": "/src/assets/images/independiente.png",
+    "awayLogo": "/src/assets/images/rosario_central.png",
+    "result": "0 - 1"
+  },
+  {
+    "home": "Manchester City",
+    "away": "Wolves",
+    "homeLogo": "/src/assets/images/manchester_city.png",
+    "awayLogo": "/src/assets/images/wolves.png",
+    "result": "1 - 0"
+  },
+  {
+    "home": "River",
+    "away": "Boca",
+    "homeLogo": "/src/assets/images/river.png",
+    "awayLogo": "/src/assets/images/boca.png",
+    "result": "3 - 1"
+  },
+  {
+    "home": "Arsenal",
+    "away": "Chelsea",
+    "homeLogo": "/src/assets/images/arsenal.png",
+    "awayLogo": "/src/assets/images/chelsea.png",
+    "result": "2 - 3"
+  },
+  {
+    "home": "PSG",
+    "away": "Bayern Munich",
+    "homeLogo": "/src/assets/images/psg.png",
+    "awayLogo": "/src/assets/images/bayern.png",
+    "result": "1 - 1"
+  },
+  {
+    "home": "Juventus",
+    "away": "Napoli",
+    "homeLogo": "/src/assets/images/juventus.png",
+    "awayLogo": "/src/assets/images/napoli.png",
+    "result": "2 - 0"
+  },
+  {
+    "home": "Atlético de Madrid",
+    "away": "Sevilla",
+    "homeLogo": "/src/assets/images/atletico_madrid.png",
+    "awayLogo": "/src/assets/images/sevilla.png",
+    "result": "1 - 1"
+  },
+  {
+    "home": "Inter de Milán",
+    "away": "AC Milán",
+    "homeLogo": "/src/assets/images/inter.png",
+    "awayLogo": "/src/assets/images/milan.png",
+    "result": "0 - 0"
+  },
+  {
+    "home": "Real Sociedad",
+    "away": "Valencia",
+    "homeLogo": "/src/assets/images/real_sociedad.png",
+    "awayLogo": "/src/assets/images/valencia.png",
+    "result": "0 - 1"
+  }
+]

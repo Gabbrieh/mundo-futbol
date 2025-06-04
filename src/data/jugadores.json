@@ -1,11 +1,13 @@
 [
   {
     "nombre": "LAMINE YAMAL",
-    "dorsal": 19,
+    "dorsal": 10,
     "posicion": "Atacante",
     "club": "FC Barcelona",
     "foto": "../src/assets/images/lamine.jpg",
-    "clubIcon": "../src/assets/images/barcelona.png"
+    "clubIcon": "../src/assets/images/barcelona.png",
+    "nacionalidad": "España",
+    "nacionalidadIcon": "../src/assets/images/flag_spain.svg"
   },
   {
     "nombre": "KYLIAN MBAPPÉ",
@@ -13,7 +15,9 @@
     "posicion": "Atacante",
     "club": "Real Madrid",
     "foto": "../src/assets/images/kikimbappe.jpg",
-    "clubIcon": "../src/assets/images/real_madrid.png"
+    "clubIcon": "../src/assets/images/real_madrid.png",
+    "nacionalidad": "Francia",
+    "nacionalidadIcon": "../src/assets/images/francia.png"
   },
   {
     "nombre": "VINICIUS JR",
@@ -21,7 +25,9 @@
     "posicion": "Atacante",
     "club": "Real Madrid",
     "foto": "../src/assets/images/vinicius.jpg",
-    "clubIcon": "../src/assets/images/real_madrid.png"
+    "clubIcon": "../src/assets/images/real_madrid.png",
+    "nacionalidad": "Brasil",
+    "nacionalidadIcon": "../src/assets/images/brasil.png"
   },
   {
     "nombre": "LAUTARO MARTÍNEZ",
@@ -29,7 +35,9 @@
     "posicion": "Atacante",
     "club": "Inter de Milán",
     "foto": "../src/assets/images/lautaro_martinez.jpg",
-    "clubIcon": "../src/assets/images/inter.png"
+    "clubIcon": "../src/assets/images/inter.png",
+    "nacionalidad": "Argentina",
+    "nacionalidadIcon": "../src/assets/images/argentina.png"
   },
   {
     "nombre": "ERLING HAALAND",
@@ -37,7 +45,9 @@
     "posicion": "Atacante",
     "club": "Manchester City",
     "foto": "../src/assets/images/haaland.jpg",
-    "clubIcon": "../src/assets/images/manchester_city.png"
+    "clubIcon": "../src/assets/images/manchester_city.png",
+    "nacionalidad": "Noruega",
+    "nacionalidadIcon": "../src/assets/images/noruega.png"
   },
   {
     "nombre": "HARRY KANE",
@@ -45,7 +55,9 @@
     "posicion": "Atacante",
     "club": "Bayern Múnich",
     "foto": "../src/assets/images/harrykane.jpg",
-    "clubIcon": "../src/assets/images/bayern.png"
+    "clubIcon": "../src/assets/images/bayern.png",
+    "nacionalidad": "Inglaterra",
+    "nacionalidadIcon": "../src/assets/images/inglaterra.png"
   },
   {
     "nombre": "LIONEL MESSI",
@@ -53,7 +65,9 @@
     "posicion": "Atacante",
     "club": "Inter Miami CF",
     "foto": "../src/assets/images/Lionel-Messi-2025.png",
-    "clubIcon": "../src/assets/images/inter_miami.png"
+    "clubIcon": "../src/assets/images/inter_miami.png",
+    "nacionalidad": "Argentina",
+    "nacionalidadIcon": "../src/assets/images/argentina.png"
   },
   {
     "nombre": "CRISTIANO RONALDO",
@@ -61,7 +75,9 @@
     "posicion": "Atacante",
     "club": "Al Nassr",
     "foto": "../src/assets/images/cr7.jpg",
-    "clubIcon": "../src/assets/images/alnassr.png"
+    "clubIcon": "../src/assets/images/alnassr.png",
+    "nacionalidad": "Portugal",
+    "nacionalidadIcon": "../src/assets/images/portugal.png"
   },
   {
     "nombre": "KEVIN DE BRUYNE",
@@ -69,7 +85,9 @@
     "posicion": "Centrocampista",
     "club": "Manchester City",
     "foto": "../src/assets/images/kevin.jpg",
-    "clubIcon": "../src/assets/images/manchester_city.png"
+    "clubIcon": "../src/assets/images/manchester_city.png",
+    "nacionalidad": "Bélgica",
+    "nacionalidadIcon": "../src/assets/images/belgica.png"
   },
   {
     "nombre": "ENZO FERNÁNDEZ",
@@ -77,7 +95,9 @@
     "posicion": "Centrocampista",
     "club": "Chelsea",
     "foto": "../src/assets/images/enzofernandez.jpg",
-    "clubIcon": "../src/assets/images/chelsea.png"
+    "clubIcon": "../src/assets/images/chelsea.png",
+    "nacionalidad": "Argentina",
+    "nacionalidadIcon": "../src/assets/images/argentina.png"
   },
   {
     "nombre": "PEDRI",
@@ -85,7 +105,9 @@
     "posicion": "Centrocampista",
     "club": "FC Barcelona",
     "foto": "../src/assets/images/pedri.jpg",
-    "clubIcon": "../src/assets/images/barcelona.png"
+    "clubIcon": "../src/assets/images/barcelona.png",
+    "nacionalidad": "España",
+    "nacionalidadIcon": "../src/assets/images/flag_spain.svg"
   },
   {
     "nombre": "JUDE BELLINGHAM",
@@ -93,7 +115,9 @@
     "posicion": "Centrocampista",
     "club": "Real Madrid",
     "foto": "../src/assets/images/jude.jpg",
-    "clubIcon": "../src/assets/images/real_madrid.png"
+    "clubIcon": "../src/assets/images/real_madrid.png",
+    "nacionalidad": "Inglaterra",
+    "nacionalidadIcon": "../src/assets/images/inglaterra.png"
   },
   {
     "nombre": "DECLAN RICE",
@@ -101,47 +125,59 @@
     "posicion": "Centrocampista",
     "club": "Arsenal",
     "foto": "../src/assets/images/declan.jpg",
-    "clubIcon": "../src/assets/images/arsenal.png"
+    "clubIcon": "../src/assets/images/arsenal.png",
+    "nacionalidad": "Inglaterra",
+    "nacionalidadIcon": "../src/assets/images/inglaterra.png"
   },
-   {
+  {
     "nombre": "FEDERICO VALVERDE",
     "dorsal": 8,
     "posicion": "Centrocampista",
     "club": "Real Madrid",
     "foto": "../src/assets/images/valverde.jpg",
-    "clubIcon": "../src/assets/images/real_madrid.png"
-},
+    "clubIcon": "../src/assets/images/real_madrid.png",
+    "nacionalidad": "Uruguay",
+    "nacionalidadIcon": "../src/assets/images/uruguay.png"
+  },
   {
     "nombre": "RODRI",
     "dorsal": 14,
     "posicion": "Centrocampista",
     "club": "Manchester City",
     "foto": "../src/assets/images/rodri.jpg",
-    "clubIcon": "../src/assets/images/manchester_city.png"
-},
+    "clubIcon": "../src/assets/images/manchester_city.png",
+    "nacionalidad": "España",
+    "nacionalidadIcon": "../src/assets/images/flag_spain.svg"
+  },
   {
     "nombre": "ALEXIS MAC ALLISTER",
     "dorsal": 10,
     "posicion": "Centrocampista",
     "club": "Liverpool",
     "foto": "../src/assets/images/macallister.jpg",
-    "clubIcon": "../src/assets/images/liverpool.png"
-},
+    "clubIcon": "../src/assets/images/liverpool.png",
+    "nacionalidad": "Argentina",
+    "nacionalidadIcon": "../src/assets/images/argentina.png"
+  },
   {
     "nombre": "CRISTIAN ROMERO",
     "dorsal": 17,
     "posicion": "Defensa",
     "club": "Tottenham",
     "foto": "../src/assets/images/cristianromero.png",
-    "clubIcon": "../src/assets/images/tottenham.png"
+    "clubIcon": "../src/assets/images/tottenham.png",
+    "nacionalidad": "Argentina",
+    "nacionalidadIcon": "../src/assets/images/argentina.png"
   },
-    {
+  {
     "nombre": "RUBÉN DÍAS",
     "dorsal": 3,
     "posicion": "Defensa",
     "club": "Manchester City",
     "foto": "../src/assets/images/rubendias.jpg",
-    "clubIcon": "../src/assets/images/manchester_city.png"
+    "clubIcon": "../src/assets/images/manchester_city.png",
+    "nacionalidad": "Portugal",
+    "nacionalidadIcon": "../src/assets/images/portugal.png"
   },
   {
     "nombre": "VIRGIL VAN DIJK",
@@ -149,7 +185,9 @@
     "posicion": "Defensa",
     "club": "Liverpool",
     "foto": "../src/assets/images/virgil.jpg",
-    "clubIcon": "../src/assets/images/liverpool.png"
+    "clubIcon": "../src/assets/images/liverpool.png",
+    "nacionalidad": "Países Bajos",
+    "nacionalidadIcon": "../src/assets/images/holanda.png"
   },
   {
     "nombre": "LISANDRO MARTÍNEZ",
@@ -157,7 +195,9 @@
     "posicion": "Defensa",
     "club": "Manchester United",
     "foto": "../src/assets/images/lisandro.jpg",
-    "clubIcon": "../src/assets/images/manchester_united.png"
+    "clubIcon": "../src/assets/images/manchester_united.png",
+    "nacionalidad": "Argentina",
+    "nacionalidadIcon": "../src/assets/images/argentina.png"
   },
   {
     "nombre": "RONALD ARAÚJO",
@@ -165,7 +205,9 @@
     "posicion": "Defensa",
     "club": "FC Barcelona",
     "foto": "../src/assets/images/araujo.jpg",
-    "clubIcon": "../src/assets/images/barcelona.png"
+    "clubIcon": "../src/assets/images/barcelona.png",
+    "nacionalidad": "Uruguay",
+    "nacionalidadIcon": "../src/assets/images/uruguay.png"
   },
   {
     "nombre": "WILLIAM SALIBA",
@@ -173,7 +215,9 @@
     "posicion": "Defensa",
     "club": "Arsenal",
     "foto": "../src/assets/images/saliba.jpg",
-    "clubIcon": "../src/assets/images/arsenal.png"
+    "clubIcon": "../src/assets/images/arsenal.png",
+    "nacionalidad": "Francia",
+    "nacionalidadIcon": "../src/assets/images/francia.png"
   },
   {
     "nombre": "JOSKO GVARDIOL",
@@ -181,7 +225,9 @@
     "posicion": "Defensa",
     "club": "Manchester City",
     "foto": "../src/assets/images/joskogvardiol.jpg",
-    "clubIcon": "../src/assets/images/manchester_city.png"
+    "clubIcon": "../src/assets/images/manchester_city.png",
+    "nacionalidad": "Croacia",
+    "nacionalidadIcon": "../src/assets/images/croacia.png"
   },
   {
     "nombre": "PAU CUBARSI",
@@ -189,6 +235,88 @@
     "posicion": "Defensa",
     "club": "FC Barcelona",
     "foto": "../src/assets/images/paucubarsi.jpg",
-    "clubIcon": "../src/assets/images/barcelona.png"
+    "clubIcon": "../src/assets/images/barcelona.png",
+    "nacionalidad": "España",
+    "nacionalidadIcon": "../src/assets/images/flag_spain.svg"
+  },
+  {
+    "nombre": "EMILIANO MARTÍNEZ",
+    "dorsal": 23,
+    "posicion": "Portero",
+    "club": "Aston Villa",
+    "foto": "../src/assets/images/emilianomartinez.jpg",
+    "clubIcon": "../src/assets/images/astonvilla.png",
+    "nacionalidad": "Argentina",
+    "nacionalidadIcon": "../src/assets/images/argentina.png"
+  },
+  {
+    "nombre": "THIBAUT COURTOIS",
+    "dorsal": 1,
+    "posicion": "Portero",
+    "club": "Real Madrid",
+    "foto": "../src/assets/images/cuortois.jpeg",
+    "clubIcon": "../src/assets/images/real_madrid.png",
+    "nacionalidad": "Bélgica",
+    "nacionalidadIcon": "../src/assets/images/belgica.png"
+  },
+  {
+    "nombre": "ALISSON BECKER",
+    "dorsal": 1,
+    "posicion": "Portero",
+    "club": "Liverpool",
+    "foto": "../src/assets/images/alisson.jpg",
+    "clubIcon": "../src/assets/images/liverpool.png",
+    "nacionalidad": "Brasil",
+    "nacionalidadIcon": "../src/assets/images/brasil.png"
+  },
+  {
+    "nombre": "EDERSON",
+    "dorsal": 31,
+    "posicion": "Portero",
+    "club": "Manchester City",
+    "foto": "../src/assets/images/ederson.jpg",
+    "clubIcon": "../src/assets/images/manchester_city.png",
+    "nacionalidad": "Brasil",
+    "nacionalidadIcon": "../src/assets/images/brasil.png"
+  },
+  {
+    "nombre": "ANDRÉS ONANA",
+    "dorsal": 24,
+    "posicion": "Portero",
+    "club": "Manchester United",
+    "foto": "../src/assets/images/andreonana.jpg",
+    "clubIcon": "../src/assets/images/manchester_united.png",
+    "nacionalidad": "Camerún",
+    "nacionalidadIcon": "../src/assets/images/camerun.png"
+  },
+  {
+    "nombre": "JAN OBLAK",
+    "dorsal": 13,
+    "posicion": "Portero",
+    "club": "Atlético de Madrid",
+    "foto": "../src/assets/images/jonoblak.jpeg",
+    "clubIcon": "../src/assets/images/atletico_madrid.png",
+    "nacionalidad": "Eslovenia",
+    "nacionalidadIcon": "../src/assets/images/slovenia.png"
+  },
+  {
+    "nombre": "GIANLUIGI DONNARUMMA",
+    "dorsal": 50,
+    "posicion": "Portero",
+    "club": "Paris Saint-Germain",
+    "foto": "../src/assets/images/donnarumma.jpg",
+    "clubIcon": "../src/assets/images/psg.png",
+    "nacionalidad": "Italia",
+    "nacionalidadIcon": "../src/assets/images/italia.png"
+  },
+  {
+    "nombre": "MANUEL NEUER",
+    "dorsal": 1,
+    "posicion": "Portero",
+    "club": "Bayern Múnich",
+    "foto": "../src/assets/images/neuer.jpg",
+    "clubIcon": "../src/assets/images/bayern.png",
+    "nacionalidad": "Alemania",
+    "nacionalidadIcon": "../src/assets/images/alemania.png"
   }
 ]
