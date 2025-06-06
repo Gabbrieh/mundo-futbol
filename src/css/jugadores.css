@@ -82,7 +82,7 @@ body {
 
 .jugadores_backgroud {
   background: rgba(255, 255, 255, 0.92);
-  border-radius: 1.6rem 1.6rem 0 0;
+  border-radius: 1.6rem 1.6rem 1.6rem 1.6rem;
   box-shadow: 0 8px 32px rgba(0,0,0,0.18);
   padding: 20px 20px 28px 20px;
   margin: 40px 260px 40px 260px;
@@ -92,11 +92,11 @@ body {
 }
 
 .title_jugadores {
-  font-size: 30px;
+  font-size: 40px;
   font-family: 'mark-bold', Arial, sans-serif;
   color: var(--blue-100);
   text-align: center;
-  padding-top: 10px;
+  padding-top: 15px;
 }
 
 .botones_posiciones {
@@ -229,7 +229,6 @@ body {
 }
 
 .jugador_club {
-  margin-top: 8px;
   font-size: 18px;
   color: #ffd700;
   font-weight: bold;

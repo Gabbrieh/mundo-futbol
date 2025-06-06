@@ -80,6 +80,89 @@
     "nacionalidadIcon": "../src/assets/images/portugal.png"
   },
   {
+    "nombre": "NEYMAR JR",
+    "dorsal": 10,
+    "posicion": "Atacante",
+    "club": "Al Hilal",
+    "foto": "../src/assets/images/neymarjr.jpeg",
+    "clubIcon": "../src/assets/images/alhilal.png",
+    "nacionalidad": "Brasil",
+    "nacionalidadIcon": "../src/assets/images/brasil.png"
+  },
+  {
+    "nombre": "JULIÁN ÁLVAREZ",
+    "dorsal": 9,
+    "posicion": "Atacante",
+    "club": "Atletico de Madrid",
+    "foto": "../src/assets/images/julianalvarez.jpg",
+    "clubIcon": "../src/assets/images/atletico_madrid.png",
+    "nacionalidad": "Argentina",
+    "nacionalidadIcon": "../src/assets/images/argentina.png"
+  },
+  {
+    "nombre": "PHIL FODEN",
+    "dorsal": 47,
+    "posicion": "Atacante",
+    "club": "Manchester City",
+    "foto": "../src/assets/images/foden.jpg",
+    "clubIcon": "../src/assets/images/manchester_city.png",
+    "nacionalidad": "Inglaterra",
+    "nacionalidadIcon": "../src/assets/images/inglaterra.png"
+  },
+  {
+    "nombre": "DARWIN NÚÑEZ",
+    "dorsal": 27,
+    "posicion": "Atacante",
+    "club": "Liverpool",
+    "foto": "../src/assets/images/darwin.jpg",
+    "clubIcon": "../src/assets/images/liverpool.png",
+    "nacionalidad": "Uruguay",
+    "nacionalidadIcon": "../src/assets/images/uruguay.png"
+  },
+  {
+    "nombre": "MOHAMED SALAH",
+    "dorsal": 11,
+    "posicion": "Atacante",
+    "club": "Liverpool",
+    "foto": "../src/assets/images/mohamedsalah.jpg",
+    "clubIcon": "../src/assets/images/liverpool.png",
+    "nacionalidad": "Egipto",
+    "nacionalidadIcon": "../src/assets/images/egipto.png"
+  },
+  {
+    "nombre": "ANTOINE GRIEZMANN",
+    "dorsal": 8,
+    "posicion": "Atacante",
+    "club": "Atlético de Madrid",
+    "foto": "../src/assets/images/griezmann.jpg",
+    "clubIcon": "../src/assets/images/atletico_madrid.png",
+    "nacionalidad": "Francia",
+    "nacionalidadIcon": "../src/assets/images/francia.png"
+  },
+  {
+    "nombre": "ALEJANDRO GARNACHO",
+    "dorsal": 17,
+    "posicion": "Atacante",
+    "club": "Manchester United",
+    "foto": "../src/assets/images/garnacho.jpg",
+    "clubIcon": "../src/assets/images/manchester_united.png",
+    "nacionalidad": "Argentina",
+    "nacionalidadIcon": "../src/assets/images/argentina.png"
+  },
+  {
+    "nombre": "GABRIEL JESÚS",
+    "dorsal": 9,
+    "posicion": "Atacante",
+    "club": "Arsenal",
+    "foto": "../src/assets/images/gabrieljesus.jpeg",
+    "clubIcon": "../src/assets/images/arsenal.png",
+    "nacionalidad": "Brasil",
+    "nacionalidadIcon": "../src/assets/images/brasil.png"
+  },
+
+
+
+  {
     "nombre": "KEVIN DE BRUYNE",
     "dorsal": 17,
     "posicion": "Centrocampista",
@@ -158,6 +241,86 @@
     "clubIcon": "../src/assets/images/liverpool.png",
     "nacionalidad": "Argentina",
     "nacionalidadIcon": "../src/assets/images/argentina.png"
+  },
+  {
+    "nombre": "MODRIĆ",
+    "dorsal": 10,
+    "posicion": "Centrocampista",
+    "club": "Real Madrid",
+    "foto": "../src/assets/images/modric.jpg",
+    "clubIcon": "../src/assets/images/real_madrid.png",
+    "nacionalidad": "Croacia",
+    "nacionalidadIcon": "../src/assets/images/croacia.png"
+  },
+  {
+    "nombre": "BRUNO FERNANDES",
+    "dorsal": 8,
+    "posicion": "Centrocampista",
+    "club": "Manchester United",
+    "foto": "../src/assets/images/brunofernandes.jpg",
+    "clubIcon": "../src/assets/images/manchester_united.png",
+    "nacionalidad": "Portugal",
+    "nacionalidadIcon": "../src/assets/images/portugal.png"
+  },
+  {
+    "nombre": "JOSHUA KIMMICH",
+    "dorsal": 6,
+    "posicion": "Centrocampista",
+    "club": "Bayern Múnich",
+    "foto": "../src/assets/images/kimmich.jpg",
+    "clubIcon": "../src/assets/images/bayern.png",
+    "nacionalidad": "Alemania",
+    "nacionalidadIcon": "../src/assets/images/alemania.png"
+  },
+  {
+    "nombre": "FABIÁN RUIZ",
+    "dorsal": 8,
+    "posicion": "Centrocampista",
+    "club": "Paris Saint-Germain",
+    "foto": "../src/assets/images/fabianruiz.jpg",
+    "clubIcon": "../src/assets/images/psg.png",
+    "nacionalidad": "España",
+    "nacionalidadIcon": "../src/assets/images/flag_spain.svg"
+  },
+  {
+    "nombre": "VITINHA",
+    "dorsal": 20,
+    "posicion": "Centrocampista",
+    "club": "Paris Saint-Germain",
+    "foto": "../src/assets/images/vitinha.jpeg",
+    "clubIcon": "../src/assets/images/psg.png",
+    "nacionalidad": "Portugal",
+    "nacionalidadIcon": "../src/assets/images/portugal.png"
+  },
+  {
+    "nombre": "CAMAVINGA",
+    "dorsal": 25,
+    "posicion": "Centrocampista",
+    "club": "Real Madrid",
+    "foto": "../src/assets/images/camavinga.jpg",
+    "clubIcon": "../src/assets/images/real_madrid.png",
+    "nacionalidad": "Francia",
+    "nacionalidadIcon": "../src/assets/images/francia.png"
+  },
+  {
+    "nombre": "FRENKIE DE JONG",
+    "dorsal": 21,
+    "posicion": "Centrocampista",
+    "club": "FC Barcelona",
+    "foto": "../src/assets/images/frenkiedejong.jpg",
+    "clubIcon": "../src/assets/images/barcelona.png",
+    "nacionalidad": "Países Bajos",
+    "nacionalidadIcon": "../src/assets/images/holanda.png"
+  },
+  {
+    "nombre": "MARCOS LLORENTE",
+    "dorsal": 14,
+    "posicion": "Centrocampista",
+    "club": "Atlético de Madrid",
+    "foto": "../src/assets/images/marcosllorente.jpeg",
+    "clubIcon": "../src/assets/images/atletico_madrid.png",
+    "nacionalidad": "España",
+    "nacionalidadIcon": "../src/assets/images/flag_spain.svg"
   },
   {
     "nombre": "CRISTIAN ROMERO",
@@ -240,6 +403,86 @@
     "nacionalidadIcon": "../src/assets/images/flag_spain.svg"
   },
   {
+    "nombre": "JOÃO CANCELO",
+    "dorsal": 7,
+    "posicion": "Defensa",
+    "club": "Barcelona",
+    "foto": "../src/assets/images/joaocancelo.jpg",
+    "clubIcon": "../src/assets/images/barcelona.png",
+    "nacionalidad": "Portugal",
+    "nacionalidadIcon": "../src/assets/images/portugal.png"
+  },
+  {
+    "nombre": "ALPHONSO DAVIES",
+    "dorsal": 19,
+    "posicion": "Defensa",
+    "club": "Bayern Múnich",
+    "foto": "../src/assets/images/davies.jpg",
+    "clubIcon": "../src/assets/images/bayern.png",
+    "nacionalidad": "Canadá",
+    "nacionalidadIcon": "../src/assets/images/canada.png"
+  },
+  {
+    "nombre": "UPAMECANO",
+    "dorsal": 2,
+    "posicion": "Defensa",
+    "club": "Bayern Múnich",
+    "foto": "../src/assets/images/upamecano.jpg",
+    "clubIcon": "../src/assets/images/bayern.png",
+    "nacionalidad": "Francia",
+    "nacionalidadIcon": "../src/assets/images/francia.png"
+  },
+  {
+    "nombre": "ANDREAS CHRISTENSEN",
+    "dorsal": 15,
+    "posicion": "Defensa",
+    "club": "FC Barcelona",
+    "foto": "../src/assets/images/christensen.jpg",
+    "clubIcon": "../src/assets/images/barcelona.png",
+    "nacionalidad": "Dinamarca",
+    "nacionalidadIcon": "../src/assets/images/dinamarca.png"
+  },
+  {
+    "nombre": "TRIPPIER",
+    "dorsal": 2,
+    "posicion": "Defensa",
+    "club": "Newcastle United",
+    "foto": "../src/assets/images/trippier.jpg",
+    "clubIcon": "../src/assets/images/newcastle.png",
+    "nacionalidad": "Inglaterra",
+    "nacionalidadIcon": "../src/assets/images/inglaterra.png"
+  },
+  {
+    "nombre": "JOEL MATIP",
+    "dorsal": 32,
+    "posicion": "Defensa",
+    "club": "Liverpool",
+    "foto": "../src/assets/images/matip.jpg",
+    "clubIcon": "../src/assets/images/liverpool.png",
+    "nacionalidad": "Camerún",
+    "nacionalidadIcon": "../src/assets/images/camerun.png"
+  },
+  {
+    "nombre": "HARRY MAGUIRE",
+    "dorsal": 6,
+    "posicion": "Defensa",
+    "club": "Manchester United",
+    "foto": "../src/assets/images/maguire.jpg",
+    "clubIcon": "../src/assets/images/manchester_united.png",
+    "nacionalidad": "Inglaterra",
+    "nacionalidadIcon": "../src/assets/images/inglaterra.png"
+  },
+  {
+    "nombre": "AKÉ",
+    "dorsal": 6,
+    "posicion": "Defensa",
+    "club": "Manchester City",
+    "foto": "../src/assets/images/ake.jpg",
+    "clubIcon": "../src/assets/images/manchester_city.png",
+    "nacionalidad": "Países Bajos",
+    "nacionalidadIcon": "../src/assets/images/holanda.png"
+  },
+  {
     "nombre": "EMILIANO MARTÍNEZ",
     "dorsal": 23,
     "posicion": "Portero",
@@ -318,5 +561,85 @@
     "clubIcon": "../src/assets/images/bayern.png",
     "nacionalidad": "Alemania",
     "nacionalidadIcon": "../src/assets/images/alemania.png"
+  },
+  {
+    "nombre": "JORDAN PICKFORD",
+    "dorsal": 1,
+    "posicion": "Portero",
+    "club": "Everton",
+    "foto": "../src/assets/images/pickford.jpg",
+    "clubIcon": "../src/assets/images/everton.png",
+    "nacionalidad": "Inglaterra",
+    "nacionalidadIcon": "../src/assets/images/inglaterra.png"
+  },
+  {
+    "nombre": "DAVID DE GEA",
+    "dorsal": 1,
+    "posicion": "Portero",
+    "club": "Al Nassr",
+    "foto": "../src/assets/images/daviddegea.jpg",
+    "clubIcon": "../src/assets/images/alnassr.png",
+    "nacionalidad": "España",
+    "nacionalidadIcon": "../src/assets/images/flag_spain.svg"
+  },
+  {
+    "nombre": "KEYLOR NAVAS",
+    "dorsal": 1,
+    "posicion": "Portero",
+    "club": "Al Ahli",
+    "foto": "../src/assets/images/keylornavas.jpg",
+    "clubIcon": "../src/assets/images/al_hali.png",
+    "nacionalidad": "Costa Rica",
+    "nacionalidadIcon": "../src/assets/images/costarica.png"
+  },
+  {
+    "nombre": "YASSINE BOUNOU",
+    "dorsal": 13,
+    "posicion": "Portero",
+    "club": "Al Hilal",
+    "foto": "../src/assets/images/bounou.jpg",
+    "clubIcon": "../src/assets/images/alhilal.png",
+    "nacionalidad": "Marruecos",
+    "nacionalidadIcon": "../src/assets/images/marruecos.png"
+  },
+  {
+    "nombre": "SOMMER",
+    "dorsal": 1,
+    "posicion": "Portero",
+    "club": "Bayern Múnich",
+    "foto": "../src/assets/images/sommer.jpeg",
+    "clubIcon": "../src/assets/images/bayern.png",
+    "nacionalidad": "Suiza",
+    "nacionalidadIcon": "../src/assets/images/suiza.png"
+  },
+  {
+    "nombre": "UNAI SIMÓN",
+    "dorsal": 1,
+    "posicion": "Portero",
+    "club": "Athletic Club",
+    "foto": "../src/assets/images/unaisimon.jpg",
+    "clubIcon": "../src/assets/images/athletic.png",
+    "nacionalidad": "España",
+    "nacionalidadIcon": "../src/assets/images/flag_spain.svg"
+  },
+  {
+    "nombre": "TER STEGEN",
+    "dorsal": 1,
+    "posicion": "Portero",
+    "club": "FC Barcelona",
+    "foto": "../src/assets/images/terstegen.jpg",
+    "clubIcon": "../src/assets/images/barcelona.png",
+    "nacionalidad": "Alemania",
+    "nacionalidadIcon": "../src/assets/images/alemania.png"
+  },
+  {
+    "nombre": "MIKE MAIGNAN",
+    "dorsal": 16,
+    "posicion": "Portero",
+    "club": "AC Milan",
+    "foto": "../src/assets/images/mike.jpg",
+    "clubIcon": "../src/assets/images/acmilan.png",
+    "nacionalidad": "Francia",
+    "nacionalidadIcon": "../src/assets/images/francia.png"
   }
 ]
