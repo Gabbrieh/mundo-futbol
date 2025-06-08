@@ -106,6 +106,7 @@ body {
   gap: 3rem;
   padding: 3rem;
   font-family: 'mark-bold', Arial, sans-serif;
+  text-align: justify;
 }
 
 .upcoming_matches {
@@ -199,6 +200,7 @@ body {
 .featured_card.small-below img {
   height: 250px;
   object-fit: cover;
+  text-align: justify;
 }
 
 .featured_card h2,
@@ -208,7 +210,7 @@ body {
   padding: 0;
   background: none; 
   color: var(--white-100);
-  text-align: left; 
+  text-align: justify; 
   width: 100%; 
 }
 
