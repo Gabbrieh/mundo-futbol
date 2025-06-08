@@ -1,79 +1,57 @@
 [
   {
-    "home": "Manchester United",
-    "away": "Liverpool",
-    "homeLogo": "/src/assets/images/manchester_united.png",
-    "awayLogo": "/src/assets/images/liverpool.png",
-    "result": "0 - 1"
+    "home": {"name": "MANCHESTER UNITED", "logo": "/src/assets/images/manchester_united.png", "alt": "Escudo Manchester United"},
+    "score": "0 - 1",
+    "away": {"name": "LIVERPOOL", "logo": "/src/assets/images/liverpool.png", "alt": "Escudo Liverpool"}
   },
   {
-    "home": "Barcelona",
-    "away": "Real Madrid",
-    "homeLogo": "/src/assets/images/barcelona.png",
-    "awayLogo": "/src/assets/images/real_madrid.png",
-    "result": "3 - 2"
+    "home": {"name": "BARCELONA", "logo": "/src/assets/images/barcelona.png", "alt": "Escudo Barcelona"},
+    "score": "3 - 2",
+    "away": {"name": "REAL MADRID", "logo": "/src/assets/images/real_madrid.png", "alt": "Escudo Real Madrid"}
   },
   {
-    "home": "Independiente",
-    "away": "Rosario Central",
-    "homeLogo": "/src/assets/images/independiente.png",
-    "awayLogo": "/src/assets/images/rosario_central.png",
-    "result": "0 - 1"
+    "home": {"name": "INDEPENDIENTE", "logo": "/src/assets/images/independiente.png", "alt": "Escudo Independiente"},
+    "score": "0 - 1",
+    "away": {"name": "ROSARIO CENTRAL", "logo": "/src/assets/images/rosario_central.png", "alt": "Escudo Rosario Central"}
   },
   {
-    "home": "Manchester City",
-    "away": "Wolves",
-    "homeLogo": "/src/assets/images/manchester_city.png",
-    "awayLogo": "/src/assets/images/wolves.png",
-    "result": "1 - 0"
+    "home": {"name": "MANCHESTER CITY", "logo": "/src/assets/images/manchester_city.png", "alt": "Escudo Manchester City"},
+    "score": "1 - 0",
+    "away": {"name": "WOLVES", "logo": "/src/assets/images/wolves.png", "alt": "Escudo Wolves"}
   },
   {
-    "home": "River",
-    "away": "Boca",
-    "homeLogo": "/src/assets/images/river.png",
-    "awayLogo": "/src/assets/images/boca.png",
-    "result": "3 - 1"
+    "home": {"name": "RIVER", "logo": "/src/assets/images/river.png", "alt": "Escudo River"},
+    "score": "3 - 1",
+    "away": {"name": "BOCA", "logo": "/src/assets/images/boca.png", "alt": "Escudo Boca"}
   },
   {
-    "home": "Arsenal",
-    "away": "Chelsea",
-    "homeLogo": "/src/assets/images/arsenal.png",
-    "awayLogo": "/src/assets/images/chelsea.png",
-    "result": "2 - 3"
+    "home": {"name": "ARSENAL", "logo": "/src/assets/images/arsenal.png", "alt": "Escudo Arsenal"},
+    "score": "2 - 3",
+    "away": {"name": "CHELSEA", "logo": "/src/assets/images/chelsea.png", "alt": "Escudo Chelsea"}
   },
   {
-    "home": "PSG",
-    "away": "Bayern Munich",
-    "homeLogo": "/src/assets/images/psg.png",
-    "awayLogo": "/src/assets/images/bayern.png",
-    "result": "1 - 1"
+    "home": {"name": "PSG", "logo": "/src/assets/images/psg.png", "alt": "Escudo PSG"},
+    "score": "1 - 1",
+    "away": {"name": "BAYERN MUNICH", "logo": "/src/assets/images/bayern.png", "alt": "Escudo Bayern Munich"}
   },
   {
-    "home": "Juventus",
-    "away": "Napoli",
-    "homeLogo": "/src/assets/images/juventus.png",
-    "awayLogo": "/src/assets/images/napoli.png",
-    "result": "2 - 0"
+    "home": {"name": "JUVENTUS", "logo": "/src/assets/images/juventus.png", "alt": "Escudo Juventus"},
+    "score": "2 - 0",
+    "away": {"name": "NAPOLI", "logo": "/src/assets/images/napoli.png", "alt": "Escudo Napoli"}
   },
   {
-    "home": "Atlético de Madrid",
-    "away": "Sevilla",
-    "homeLogo": "/src/assets/images/atletico_madrid.png",
-    "awayLogo": "/src/assets/images/sevilla.png",
-    "result": "1 - 1"
+    "home": {"name": "ATLÉTICO DE MADRID", "logo": "/src/assets/images/atletico_madrid.png", "alt": "Escudo Atlético de Madrid"},
+    "score": "1 - 1",
+    "away": {"name": "SEVILLA", "logo": "/src/assets/images/sevilla.png", "alt": "Escudo Sevilla"}
   },
   {
-    "home": "Inter de Milán",
-    "away": "AC Milán",
-    "homeLogo": "/src/assets/images/inter.png",
-    "awayLogo": "/src/assets/images/milan.png",
-    "result": "0 - 0"
+    "home": {"name": "INTER DE MILÁN", "logo": "/src/assets/images/inter.png", "alt": "Escudo Inter de Milán"},
+    "score": "0 - 0",
+    "away": {"name": "AC MILÁN", "logo": "/src/assets/images/milan.png", "alt": "Escudo AC Milán"}
   },
   {
-    "home": "Real Sociedad",
-    "away": "Valencia",
-    "homeLogo": "/src/assets/images/real_sociedad.png",
-    "awayLogo": "/src/assets/images/valencia.png",
-    "result": "0 - 1"
+    "home": {"name": "REAL SOCIEDAD", "logo": "/src/assets/images/real_sociedad.png", "alt": "Escudo Real Sociedad"},
+    "score": "0 - 1",
+    "away": {"name": "VALENCIA", "logo": "/src/assets/images/valencia.png", "alt": "Escudo Valencia"}
   }
 ]

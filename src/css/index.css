@@ -101,6 +101,20 @@ body {
   margin-left: 1px; 
 }
 
+.matchs_scrolling {
+  display: flex;
+  position: relative; 
+  white-space: nowrap;
+  will-change: transform; 
+}
+
+.matchs_scrolling li {
+  display: flex;
+  gap: 5px;
+  margin-right: 2rem; 
+  white-space: nowrap; 
+}
+
 .featured_container {
   display: flex;
   gap: 3rem;
@@ -212,29 +226,6 @@ body {
   color: var(--white-100);
   text-align: justify; 
   width: 100%; 
-}
-
-.scrolling_text_container {
-  width: 100%;
-  overflow: hidden;
-  position: relative;
-  display: flex; 
-  align-items: center; 
-  height: 50px; 
-}
-
-.scrolling_text {
-  display: flex;
-  position: relative; 
-  white-space: nowrap;
-  will-change: transform; 
-}
-
-.scrolling_text li {
-  display: flex;
-  gap: 5px;
-  margin-right: 2rem; 
-  white-space: nowrap; 
 }
 
 .footer_container {
