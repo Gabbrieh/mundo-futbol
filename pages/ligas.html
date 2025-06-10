@@ -44,6 +44,12 @@
       </nav>
     </header>
     <main>
+      <!-- tabla de liga -->
+      <div
+        class="tabla-posiciones-container"
+        id="tablaPosicionesContainer"
+      ></div>
+      <!-- ligas -->
       <div class="ligas_background">
         <p class="title_ligas">LIGAS</p>
         <div class="botones_ligas">
@@ -93,16 +99,18 @@
                 alt="Liga Profesional Argentina"
               />
             </button>
-            <p class="nombre-liga">LIGA PROFESIONAL ARGENTINA</p>
+            <p class="nombre-liga">LIGA AFA</p>
           </div>
           <div class="liga-card">
             <button class="btn-liga">
               <img src="/src/assets/images/brasileirao.png" alt="Brasileirao" />
             </button>
-            <p class="nombre-liga">BRASILEIRAO 2025</p>
+            <p class="nombre-liga">BRASILEIRAO</p>
           </div>
         </div>
       </div>
+      <!-- tabla de goleadores -->
+      <div class="goleadores-container" id="tablaGoleadoresContainer"></div>
     </main>
     <footer>
       <section class="footer_container">
@@ -147,5 +155,6 @@
         <p>Mundo Fútbol © 2025 Todos los derechos reservados</p>
       </section>
     </footer>
+    <script src="/src/js/tablaLigas.js"></script>
   </body>
 </html>
