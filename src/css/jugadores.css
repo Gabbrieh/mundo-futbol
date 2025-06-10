@@ -37,7 +37,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 30px;
+  padding: 2rem;
   background-color: var(--blue-100);
   position: relative; 
 }
@@ -67,8 +67,7 @@ body {
 }
 
 .logo_pag {
-  width: 25px;
-  height: 25px;
+  width: 1.5em;
   vertical-align: middle;
 }
 
