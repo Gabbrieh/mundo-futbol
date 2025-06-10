@@ -64,7 +64,7 @@
     "dorsal": 10,
     "posicion": "Atacante",
     "club": "Inter Miami CF",
-    "foto": "../src/assets/images/Lionel-Messi-2025.png",
+    "foto": "../src/assets/images/lionelmessi.jpg",
     "clubIcon": "../src/assets/images/inter_miami.png",
     "nacionalidad": "Argentina",
     "nacionalidadIcon": "../src/assets/images/argentina.png"

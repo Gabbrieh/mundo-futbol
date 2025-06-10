@@ -1,0 +1,22 @@
+{
+  "principal": {
+    "imagen": "/src/assets/images/pariscampeon.jpg",
+    "alt": "Paris Saint-Germain campeón de la Champions League 2025",
+    "titulo": "Paris Saint-Germain campeón de la Champions League 2025",
+    "descripcion": "El Paris Saint-Germain conquistó por fin su primera UEFA Champions League y lo hizo de forma contundente. El equipo dirigido por Luis Enrique goleó 5-0 al Inter de Milán en una final donde no dejó espacio para las dudas. Con un juego dominante y preciso, los parisinos controlaron el partido de principio a fin. La gran figura fue Desiré Doué, que brilló con dos goles y una asistencia, robándose todos los reflectores. Su actuación fue clave en una noche histórica para el club, que alzó el trofeo más importante de Europa y cerró con broche de oro una temporada inolvidable."
+  },
+  "secundarias": [
+    {
+      "imagen": "/src/assets/images/garnachochelsea.jpg",
+      "alt": "Alejandro Garnacho",
+      "titulo": "Alejandro Garnacho está muy cerca del Chelsea",
+      "descripcion": "Alejandro Garnacho, delantero del Manchester United, está cerca de fichar por el Chelsea. El jugador, de 20 años, ha decidido abandonar el Manchester United debido a tensiones con el entrenador Ruben Amorim, y el club inglés está dispuesto a transferirlo por alrededor de 40 millones de euros."
+    },
+    {
+      "imagen": "/src/assets/images/portugalcampeon.jpg",
+      "alt": "Portugal campión de la Eurocopa 2025",
+      "titulo": "Portugal se consagró campeón de la UEFA Nations League 2025",
+      "descripcion": "Portugal se coronó campeón de la UEFA Nations League 2025 al vencer a España en la final disputada en el Allianz Arena de Múnich por penales con marcador de 5-3, tras un empate 2-2 en los 120 minutos de juego regulares. Este es el segundo título consecutivo de Portugal en esta competición, demostrando así su dominio en la UEFA Nations League."
+    }
+  ]
+}

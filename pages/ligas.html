@@ -8,8 +8,8 @@
       href="../src/assets/images/logo_oficial.png"
       type="image/x-icon"
     />
-    <link rel="stylesheet" href="../src/css/jugadores.css" />
-    <title>Jugadores - Mundo Fútbol</title>
+    <link rel="stylesheet" href="/src/css/ligas.css" />
+    <title>Ligas - Mundo Fútbol</title>
   </head>
   <body class="home_background">
     <header class="header">
@@ -44,24 +44,64 @@
       </nav>
     </header>
     <main>
-      <div class="jugadores_backgroud">
-        <p class="title_jugadores">JUGADORES DESTACADOS</p>
-        <div class="botones_posiciones">
-          <button class="btn-posicion" data-posicion="Todos">TODOS</button>
-          <button class="btn-posicion" data-posicion="Portero">PORTERO</button>
-          <button class="btn-posicion" data-posicion="Defensa">DEFENSA</button>
-          <button class="btn-posicion" data-posicion="Centrocampista">
-            CENTROCAMPISTA
-          </button>
-          <button class="btn-posicion" data-posicion="Atacante">
-            ATACANTE
-          </button>
+      <div class="ligas_background">
+        <p class="title_ligas">LIGAS</p>
+        <div class="botones_ligas">
+          <div class="liga-card">
+            <button class="btn-liga">
+              <img src="/src/assets/images/laliga.png" alt="LALIGA" />
+            </button>
+            <p class="nombre-liga">LALIGA</p>
+          </div>
+          <div class="liga-card">
+            <button class="btn-liga">
+              <img
+                src="/src/assets/images/premierleague.png"
+                alt="Premier League"
+              />
+            </button>
+            <p class="nombre-liga">PREMIER LEAGUE</p>
+          </div>
+          <div class="liga-card">
+            <button class="btn-liga">
+              <img src="/src/assets/images/seriea.png" alt="Serie A" />
+            </button>
+            <p class="nombre-liga">SERIE A</p>
+          </div>
+          <div class="liga-card">
+            <button class="btn-liga">
+              <img src="/src/assets/images/bundesliga.png" alt="Bundesliga" />
+            </button>
+            <p class="nombre-liga">BUNDESLIGA</p>
+          </div>
+          <div class="liga-card">
+            <button class="btn-liga">
+              <img src="/src/assets/images/ligue1.png" alt="Ligue 1" />
+            </button>
+            <p class="nombre-liga">LIGUE 1</p>
+          </div>
+          <div class="liga-card">
+            <button class="btn-liga">
+              <img src="/src/assets/images/mls.png" alt="MLS" />
+            </button>
+            <p class="nombre-liga">MLS</p>
+          </div>
+          <div class="liga-card">
+            <button class="btn-liga">
+              <img
+                src="/src/assets/images/ligaprofesional.png"
+                alt="Liga Profesional Argentina"
+              />
+            </button>
+            <p class="nombre-liga">LIGA PROFESIONAL ARGENTINA</p>
+          </div>
+          <div class="liga-card">
+            <button class="btn-liga">
+              <img src="/src/assets/images/brasileirao.png" alt="Brasileirao" />
+            </button>
+            <p class="nombre-liga">BRASILEIRAO 2025</p>
+          </div>
         </div>
-        <!-- jugadores acá -->
-        <div
-          id="contenedor-jugadores"
-          class="jugadores_grid jugadores_grid_secundario"
-        ></div>
       </div>
     </main>
     <footer>
@@ -107,7 +147,5 @@
         <p>Mundo Fútbol © 2025 Todos los derechos reservados</p>
       </section>
     </footer>
-    <script src="../src/js/filtrarJugadores.js"></script>
-    <script src="../src/js/cargarJugadores.js"></script>
   </body>
 </html>

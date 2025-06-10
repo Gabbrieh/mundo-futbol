@@ -1,0 +1,44 @@
+[
+  {
+    "local": { "name": "Independiente", "logo": "/src/assets/images/independiente.png" },
+    "visitante": { "name": "Boca", "logo": "/src/assets/images/boca.png" },
+    "fecha": "20/06/2025 - 19:00",
+    "estadio": "Estadio Libertadores de América",
+    "competencia": "Superliga Argentina"
+  },
+  {
+    "local": { "name": "PSG", "logo": "/src/assets/images/psg.png" },
+    "visitante": { "name": "Manchester City", "logo": "/src/assets/images/manchester_city.png" },
+    "fecha": "21/06/2025 - 21:00",
+    "estadio": "Parc des Princes",
+    "competencia": "Champions League"
+  },
+  {
+    "local": { "name": "Juventus", "logo": "/src/assets/images/juventus.png" },
+    "visitante": { "name": "Chelsea", "logo": "/src/assets/images/chelsea.png" },
+    "fecha": "22/06/2025 - 20:45",
+    "estadio": "Allianz Stadium",
+    "competencia": "Amistoso Internacional"
+  },
+  {
+    "local": { "name": "Barcelona", "logo": "/src/assets/images/barcelona.png" },
+    "visitante": { "name": "Bayern Munich", "logo": "/src/assets/images/bayern.png" },
+    "fecha": "23/06/2025 - 18:30",
+    "estadio": "Camp Nou",
+    "competencia": "Champions League"
+  },
+  {
+    "local": { "name": "Manchester United", "logo": "/src/assets/images/manchester_united.png" },
+    "visitante": { "name": "Liverpool", "logo": "/src/assets/images/liverpool.png" },
+    "fecha": "27/06/2025 - 20:30",
+    "estadio": "Old Trafford",
+    "competencia": "Premier League"
+  },
+  {
+    "local": { "name": "Real Madrid", "logo": "/src/assets/images/real_madrid.png" },
+    "visitante": { "name": "Arsenal", "logo": "/src/assets/images/arsenal.png" },
+    "fecha": "29/06/2025 - 21:30",
+    "estadio": "Estadio Santiago Bernabéu",
+    "competencia": "Champions League"
+  }
+]

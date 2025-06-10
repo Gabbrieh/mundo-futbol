@@ -1,160 +1,114 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="icon" href="/src/assets/images/logo_oficial.png" type="image/x-icon">
-  <link rel="stylesheet" href="./src/css/index.css">
-  <title>Web Oficial de Mundo Fútbol</title>
-</head>
-<body class="home_background">
-<script src="./src/js/scrollingtext.js" defer></script>
-  <header class="header">
-    <nav class="header_navegation">
-      <ul class="links_container fc-condensed">
-        <li>
-            <img src="/src/assets/images/logo_oficial.png" class="logo_pag" alt="Logo Página">
-        </li>
-        <li><a href="./index.html">INICIO</a></li>
-        <li><a href="./pages/jugadores.html">JUGADORES</a></li>
-        <li><a href="#">LIGAS</a></li>
-        <li><a href="#">FICHAJES</a></li>
-      </ul>
-      <ul class="secondary_navegation fc-condensed">
-        <li><a href="#">BUSCAR</a></li>
-        <li>
-          <a href="#">
-            <img src="./src/assets/images/search-white.svg" alt="" class="search_icon">
-          </a>
-        </li>
-      </ul>
-    </nav>
-  </header>
-  <section class="secondary_header">
-  <nav class="secondary_header_nav">
-    <ul class="matchs_scrolling" id="matchList">
-    </ul>
-  </nav>
-</section>
-  <main>
-    <section class="featured_container">
-<div class="side_menu_container">
-  <div class="upcoming_matches">
-    <div class="upcoming_matches_header">
-      <h2>AGENDA DEPORTIVA</h2>
-    </div>
-    <div class="match_card">
-      <p class="match_teams">
-        <img src="/src/assets/images/independiente.png" alt="Escudo Independiente" class="club_logo">
-        Independiente vs Boca
-        <img src="/src/assets/images/boca.png" alt="Escudo Boca" class="club_logo">
-      </p>
-      <p class="match_details">20/06/2025 - 19:00</p>
-      <p class="match_details">Estadio Libertadores de América</p>
-      <p class="match_details">Superliga Argentina</p>
-    </div>
-    <div class="match_card">
-      <p class="match_teams">
-        <img src="/src/assets/images/psg.png" alt="Escudo PSG" class="club_logo">
-        PSG vs Manchester City
-        <img src="/src/assets/images/manchester_city.png" alt="Escudo Manchester City" class="club_logo">
-      </p>
-      <p class="match_details">21/06/2025 - 21:00</p>
-      <p class="match_details">Parc des Princes</p>
-      <p class="match_details">Champions League</p>
-    </div>
-    <div class="match_card">
-      <p class="match_teams">
-        <img src="/src/assets/images/juventus.png" alt="Escudo Juventus" class="club_logo">
-        Juventus vs Chelsea
-        <img src="/src/assets/images/chelsea.png" alt="Escudo Chelsea" class="club_logo">
-      </p>
-      <p class="match_details">22/06/2025 - 20:45</p>
-      <p class="match_details">Allianz Stadium</p>
-      <p class="match_details">Amistoso Internacional</p>
-    </div>
-    <div class="match_card">
-      <p class="match_teams">
-        <img src="/src/assets/images/barcelona.png" alt="Escudo Barcelona" class="club_logo">
-        Barcelona vs Bayern Munich
-        <img src="/src/assets/images/bayern.png" alt="Escudo Bayern Munich" class="club_logo">
-      </p>
-      <p class="match_details">23/06/2025 - 18:30</p>
-      <p class="match_details">Camp Nou</p>
-      <p class="match_details">Champions League</p>
-    </div>
-        <div class="match_card">
-      <p class="match_teams">
-        <img src="/src/assets/images/manchester_united.png" alt="Escudo manchester_united" class="club_logo">
-        Manchester United vs Liverpool
-        <img src="/src/assets/images/liverpool.png" alt="Escudo liverpool" class="club_logo">
-      </p>
-      <p class="match_details">27/06/2025 - 20:30</p>
-      <p class="match_details">Old Trafford</p>
-      <p class="match_details">Premier League</p>
-    </div>
-            <div class="match_card">
-      <p class="match_teams">
-        <img src="/src/assets/images/real_madrid.png" alt="Escudo real_madrid" class="club_logo">
-        Real Madrid vs Liverpool
-        <img src="/src/assets/images/arsenal.png" alt="Escudo arsenal" class="club_logo">
-      </p>
-      <p class="match_details">29/06/2025 - 21:30</p>
-      <p class="match_details">Estadio Santiago Bernabéu</p>
-      <p class="match_details">Champions League</p>
-    </div>
-  </div>
-</div>
-      <section class="featured_news">
-        <div class="featured_card">
-          <img src="/src/assets/images/yamal_inter.jpg" alt="Yamal vs Inter">
-          <h2>El Inter elimina al Barça y avanza a semifinales de la Champions</h2>
-          <p class="featured_card-paragraph">El Inter de Milán dejó fuera al FC Barcelona en un vibrante partido de cuartos de final de la Champions League. Con un sólido planteo defensivo y un gol clave en el segundo tiempo, los italianos sellaron su pase a semifinales y frustraron el sueño europeo del equipo catalán.
-            El encuentro se disputó en el icónico Camp Nou, donde los aficionados esperaban una remontada del Barça, pero el Inter mostró su fortaleza y determinación para avanzar en el torneo. Con esta victoria, el Inter se posiciona como uno de los favoritos para llevarse el título de la Champions League.</p>
-          </p>
-        </div>
-        <div class="featured_card_group">
-          <div class="featured_card small">
-            <img src="/src/assets/images/avalos_independiente.jpg" alt="Avalos Independiente">
-            <h2>Independiente golea a Boston River</h2>
-            <p>Independiente goleó 4-1 a Boston River en una actuación increíble por Conmmebol Sudamericana
-              y se posiciona como uno de los favoritos para llevarse el título. Con un juego ofensivo y una defensa sólida, el Rojo mostró su mejor versión en este partido.</p>
-            </p>
-          </div>
-          <div class="featured_card small-below">
-            <img src="/src/assets/images/Lionel-Messi-2025.png" alt="Lionel Messi">
-            <h2>Excelente actuación de Lionel Messi</h2>
-            <p>Inter Miami goleó de la mano de Messi que continúa con una racha invicta de 10 partidos consecutivos ganando de local.
-              El argentino mostró su magia en el campo, anotando dos goles y brindando una asistencia en un partido emocionante que dejó a los aficionados al borde de sus asientos.</p>
-            </p>
-          </div>
-        </div>
-      </section>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="/src/assets/images/logo_oficial.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./src/css/index.css" />
+    <title>Web Oficial de Mundo Fútbol</title>
+  </head>
+  <body class="home_background">
+    <script src="./src/js/scrollingtext.js" defer></script>
+    <header class="header">
+      <nav class="header_navegation">
+        <ul class="links_container fc-condensed">
+          <li>
+            <img
+              src="/src/assets/images/logo_oficial.png"
+              class="logo_pag"
+              alt="Logo Página"
+            />
+          </li>
+          <li><a href="/index.html">INICIO</a></li>
+          <li><a href="/pages/jugadores.html">JUGADORES</a></li>
+          <li><a href="/pages/ligas.html">LIGAS</a></li>
+          <li><a href="#">FICHAJES</a></li>
+        </ul>
+        <ul class="secondary_navegation fc-condensed">
+          <li><a href="#">BUSCAR</a></li>
+          <li>
+            <a href="#">
+              <img
+                src="./src/assets/images/search-white.svg"
+                alt=""
+                class="search_icon"
+              />
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section class="secondary_header">
+      <nav class="secondary_header_nav">
+        <ul class="matchs_scrolling" id="matchList">
+          <!-- acá se cargan los partidos jugados del header con scroll -->
+        </ul>
+      </nav>
     </section>
-  </main>
-  <footer>
-    <section class="footer_container">
+    <main>
+      <section class="featured_container">
+        <div class="side_menu_container">
+          <div class="upcoming_matches">
+            <div class="upcoming_matches_header">
+              <h2>AGENDA DEPORTIVA</h2>
+            </div>
+            <div id="match_cards_container"></div>
+            <!-- acá carga los próximos partidos -->
+          </div>
+        </div>
+        <section class="featured_news"></section>
+        <!-- acá se carga la noticia principal y las secundarias -->
+      </section>
+    </main>
+    <footer>
+      <section class="footer_container">
         <p>Síguenos en nuestras redes sociales</p>
         <div class="social_media">
-            <a href="https://www.facebook.com/" target="_blank">
-                <img src="./src/assets/images/facebook.svg" alt="Facebook" class="social_icon">
-            </a>
-            <a href="https://www.instagram.com/" target="_blank">
-                <img src="./src/assets/images/instagram.svg" alt="Instagram" class="social_icon">
-            </a>
-            <a href="https://twitter.com/" target="_blank">
-                <img src="./src/assets/images/twitter.svg" alt="Twitter" class="social_icon">
-            </a>
-            <a href="https://www.youtube.com/" target="_blank">
-                <img src="./src/assets/images/youtube.svg" alt="YouTube" class="social_icon">
-            </a>
-            <a href="https://www.tiktok.com/" target="_blank">
-                <img src="./src/assets/images/tik-tok.svg" alt="TikTok" class="social_icon">
-             </a>
+          <a href="https://www.facebook.com/" target="_blank">
+            <img
+              src="./src/assets/images/facebook.svg"
+              alt="Facebook"
+              class="social_icon"
+            />
+          </a>
+          <a href="https://www.instagram.com/" target="_blank">
+            <img
+              src="./src/assets/images/instagram.svg"
+              alt="Instagram"
+              class="social_icon"
+            />
+          </a>
+          <a href="https://twitter.com/" target="_blank">
+            <img
+              src="./src/assets/images/twitter.svg"
+              alt="Twitter"
+              class="social_icon"
+            />
+          </a>
+          <a href="https://www.youtube.com/" target="_blank">
+            <img
+              src="./src/assets/images/youtube.svg"
+              alt="YouTube"
+              class="social_icon"
+            />
+          </a>
+          <a href="https://www.tiktok.com/" target="_blank">
+            <img
+              src="./src/assets/images/tik-tok.svg"
+              alt="TikTok"
+              class="social_icon"
+            />
+          </a>
         </div>
         <p>Mundo Fútbol © 2025 Todos los derechos reservados</p>
-    </section>
-</footer>
-<script src="/src/js/loadMatches.js"></script>
-</body>
+      </section>
+    </footer>
+    <script src="/src/js/cargarNoticias.js"></script>
+    <script src="/src/js/loadMatches.js"></script>
+    <script src="/src/js/cargarPartidos.js"></script>
+  </body>
 </html>

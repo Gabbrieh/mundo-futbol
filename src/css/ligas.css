@@ -1,0 +1,176 @@
+@font-face {
+  font-family: "mark-bold";
+  src: local("mark-bold"), url("/src/assets/fonts/mark-bold.ttf");
+}
+
+:root {
+  --black-100: #000;
+  --white-100: #fff;
+  --blue-100: #181733;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+body {
+  background-color: var(--blue-100);
+  font-family: "Segoe UI", sans-serif;
+  color: var(--white-100);
+  overflow-x: hidden;
+}
+
+.header_navegation {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 30px;
+  background-color: var(--blue-100);
+  position: relative;
+}
+
+.header_navegation::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 8px;
+  background: linear-gradient(270deg, #9b0041 0, #9b0041 48%, #0018b4 52%, #0018b4);
+  z-index: 1;
+}
+
+.links_container,
+.secondary_navegation {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 16px;
+  font-family: 'mark-bold', Arial, sans-serif;
+}
+
+.links_container li a:hover {
+  text-decoration: underline;
+}
+
+.logo_pag {
+  width: 25px;
+  height: 25px;
+  vertical-align: middle;
+}
+
+.search_icon {
+  width: 15px;
+  height: 15px;
+  vertical-align: middle;
+}
+
+.ligas_background {
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 1.6rem;
+  box-shadow: 0 8px 32px rgba(0,0,0,0.18);
+  padding: 20px 20px 28px 20px;
+  margin: 40px auto;
+  max-width: 800px;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title_ligas {
+  font-size: 40px;
+  font-family: 'mark-bold', Arial, sans-serif;
+  color: var(--blue-100);
+  text-align: center;
+  padding-top: 15px;
+}
+
+.botones_ligas {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  max-width: 620px;
+  gap: 25px;
+  margin-top: 110px;
+  width: 100%;
+  justify-content: center;
+  justify-items: center;
+}
+
+.liga-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.btn-liga {
+  width: 100px;
+  height: 100px;
+  background-color: #f8f8f8;
+  border-radius: 12px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 .1rem .2rem rgba(0, 0, 0, 0.15);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s;
+}
+
+.btn-liga:hover {
+  transform: scale(1.05);
+}
+
+.btn-liga img {
+  width: 50%;
+  height: auto;
+}
+
+.nombre-liga {
+  font-family: 'mark-bold', Arial, sans-serif;
+  font-size: 12px;
+  color: var(--blue-100);
+  margin-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer_container {
+  padding-top: 5px;
+  background-color: var(--white-100);
+  color: var(--blue-100);
+  font-family: 'mark-bold', Arial, sans-serif;
+  font-size: 16px;
+  text-align: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.social_media {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  padding: 20px; 
+}
+
+.social_icon {
+  fill: var(--blue-100);
+  height: 20px;
+  width: 20px;
+}
+
+.social_media img:hover {
+  transform: scale(1.5); 
+}
