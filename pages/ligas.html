@@ -43,73 +43,79 @@
         </ul>
       </nav>
     </header>
-    <main>
-      <!-- tabla de liga -->
+    <main class="ligas-layout">
+      <!-- Izquierda: Tabla de posiciones -->
       <div
         class="tabla-posiciones-container"
         id="tablaPosicionesContainer"
       ></div>
-      <!-- ligas -->
-      <div class="ligas_background">
-        <p class="title_ligas">LIGAS</p>
-        <div class="botones_ligas">
-          <div class="liga-card">
-            <button class="btn-liga">
-              <img src="/src/assets/images/laliga.png" alt="LALIGA" />
-            </button>
-            <p class="nombre-liga">LALIGA</p>
-          </div>
-          <div class="liga-card">
-            <button class="btn-liga">
-              <img
-                src="/src/assets/images/premierleague.png"
-                alt="Premier League"
-              />
-            </button>
-            <p class="nombre-liga">PREMIER LEAGUE</p>
-          </div>
-          <div class="liga-card">
-            <button class="btn-liga">
-              <img src="/src/assets/images/seriea.png" alt="Serie A" />
-            </button>
-            <p class="nombre-liga">SERIE A</p>
-          </div>
-          <div class="liga-card">
-            <button class="btn-liga">
-              <img src="/src/assets/images/bundesliga.png" alt="Bundesliga" />
-            </button>
-            <p class="nombre-liga">BUNDESLIGA</p>
-          </div>
-          <div class="liga-card">
-            <button class="btn-liga">
-              <img src="/src/assets/images/ligue1.png" alt="Ligue 1" />
-            </button>
-            <p class="nombre-liga">LIGUE 1</p>
-          </div>
-          <div class="liga-card">
-            <button class="btn-liga">
-              <img src="/src/assets/images/mls.png" alt="MLS" />
-            </button>
-            <p class="nombre-liga">MLS</p>
-          </div>
-          <div class="liga-card">
-            <button class="btn-liga">
-              <img
-                src="/src/assets/images/ligaprofesional.png"
-                alt="Liga Profesional Argentina"
-              />
-            </button>
-            <p class="nombre-liga">LIGA AFA</p>
-          </div>
-          <div class="liga-card">
-            <button class="btn-liga">
-              <img src="/src/assets/images/brasileirao.png" alt="Brasileirao" />
-            </button>
-            <p class="nombre-liga">BRASILEIRAO</p>
+      <!-- Centro: Ligas y asistencias -->
+      <div class="centro-ligas">
+        <div class="ligas_background">
+          <p class="title_ligas">LIGAS</p>
+          <div class="botones_ligas">
+            <div class="liga-card">
+              <button class="btn-liga">
+                <img src="/src/assets/images/laliga.png" alt="LALIGA" />
+              </button>
+              <p class="nombre-liga">LALIGA</p>
+            </div>
+            <div class="liga-card">
+              <button class="btn-liga">
+                <img
+                  src="/src/assets/images/premierleague.png"
+                  alt="Premier League"
+                />
+              </button>
+              <p class="nombre-liga">PREMIER LEAGUE</p>
+            </div>
+            <div class="liga-card">
+              <button class="btn-liga">
+                <img src="/src/assets/images/seriea.png" alt="Serie A" />
+              </button>
+              <p class="nombre-liga">SERIE A</p>
+            </div>
+            <div class="liga-card">
+              <button class="btn-liga">
+                <img src="/src/assets/images/bundesliga.png" alt="Bundesliga" />
+              </button>
+              <p class="nombre-liga">BUNDESLIGA</p>
+            </div>
+            <div class="liga-card">
+              <button class="btn-liga">
+                <img src="/src/assets/images/ligue1.png" alt="Ligue 1" />
+              </button>
+              <p class="nombre-liga">LIGUE 1</p>
+            </div>
+            <div class="liga-card">
+              <button class="btn-liga">
+                <img src="/src/assets/images/mls.png" alt="MLS" />
+              </button>
+              <p class="nombre-liga">MLS</p>
+            </div>
+            <div class="liga-card">
+              <button class="btn-liga">
+                <img
+                  src="/src/assets/images/ligaprofesional.png"
+                  alt="Liga Profesional Argentina"
+                />
+              </button>
+              <p class="nombre-liga">LIGA AFA</p>
+            </div>
+            <div class="liga-card">
+              <button class="btn-liga">
+                <img
+                  src="/src/assets/images/brasileirao.png"
+                  alt="Brasileirao"
+                />
+              </button>
+              <p class="nombre-liga">BRASILEIRAO</p>
+            </div>
           </div>
         </div>
+        <div class="asistencias-container" id="tablaAsistenciasContainer"></div>
       </div>
-      <!-- tabla de goleadores -->
+      <!-- Derecha: Goleadores -->
       <div class="goleadores-container" id="tablaGoleadoresContainer"></div>
     </main>
     <footer>

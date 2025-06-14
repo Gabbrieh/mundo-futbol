@@ -1,38 +1,43 @@
 const botones = document.querySelectorAll('.btn-liga');
 const posicionesContainer = document.getElementById('tablaPosicionesContainer');
 const goleadoresContainer = document.getElementById('tablaGoleadoresContainer');
+const asistenciasContainer = document.getElementById('tablaAsistenciasContainer');
 
 let posicionesData = {};
 let goleadoresData = {};
+let asistenciasData = {};
 let ligaAbierta = null;
 
-// carga los json al iniciar
+// Cargar JSONs
 Promise.all([
   fetch('/src/data/posicionesliga.json').then(res => res.json()),
-  fetch('/src/data/goleadores.json').then(res => res.json())
-]).then(([posiciones, goleadores]) => {
+  fetch('/src/data/goleadores.json').then(res => res.json()),
+  fetch('/src/data/asistencias.json').then(res => res.json())
+]).then(([posiciones, goleadores, asistencias]) => {
   posicionesData = posiciones;
   goleadoresData = goleadores;
+  asistenciasData = asistencias;
 });
 
 botones.forEach((btn, index) => {
   btn.addEventListener('click', () => {
     const liga = document.querySelectorAll('.nombre-liga')[index].textContent.trim();
 
-    // si la liga abierta es la misma q tocas, se cierra
+    // Cierra si ya estaba abierta
     if (ligaAbierta === liga) {
       posicionesContainer.classList.remove('mostrar');
       goleadoresContainer.classList.remove('mostrar');
+      asistenciasContainer.classList.remove('mostrar');
       posicionesContainer.innerHTML = '';
       goleadoresContainer.innerHTML = '';
+      asistenciasContainer.innerHTML = '';
       ligaAbierta = null;
       return;
     }
 
-    // si es otra liga la muestra normal
     ligaAbierta = liga;
 
-    // posiciones
+    // Posiciones
     const posiciones = posicionesData[liga] || [];
     posicionesContainer.classList.add('mostrar');
     posicionesContainer.innerHTML = `
@@ -62,7 +67,7 @@ botones.forEach((btn, index) => {
       </div>
     `;
 
-    // goleadores
+    // Goleadores
     const goleadores = goleadoresData[liga] || [];
     goleadoresContainer.classList.add('mostrar');
     goleadoresContainer.innerHTML = `
@@ -78,6 +83,27 @@ botones.forEach((btn, index) => {
             <div>${g.jugador}</div>
             <div>${g.equipo}</div>
             <div>${g.goles}</div>
+          </div>
+        `).join('')}
+      </div>
+    `;
+
+    // Asistencias
+    const asistencias = asistenciasData[liga] || [];
+    asistenciasContainer.classList.add('mostrar');
+    asistenciasContainer.innerHTML = `
+      <h3 class="title_table_ligas">TABLA DE ASISTENCIAS</h3>
+      <div class="tabla-goleadores tabla-custom">
+        <div class="fila encabezado">
+          <div>Jugador</div>
+          <div>Club</div>
+          <div>Asistencias</div>
+        </div>
+        ${asistencias.map(a => `
+          <div class="fila">
+            <div>${a.jugador}</div>
+            <div>${a.equipo}</div>
+            <div>${a.asistencias}</div>
           </div>
         `).join('')}
       </div>
