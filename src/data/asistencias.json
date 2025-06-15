@@ -1,58 +1,58 @@
 {
   "LALIGA": [
-    { "jugador": "Toni Kroos", "equipo": "Real Madrid", "asistencias": 10 },
-    { "jugador": "Alejandro Balde", "equipo": "FC Barcelona", "asistencias": 9 },
-    { "jugador": "Rodrigo Riquelme", "equipo": "Atlético de Madrid", "asistencias": 8 },
-    { "jugador": "Sávio", "equipo": "Girona FC", "asistencias": 8 },
-    { "jugador": "Federico Valverde", "equipo": "Real Madrid", "asistencias": 7 }
+    { "jugador": "Toni Kroos", "equipo": "Real Madrid", "asistencias": 10, "logo": "../src/assets/images/clubs/real_madrid.png" },
+    { "jugador": "Alejandro Balde", "equipo": "FC Barcelona", "asistencias": 9, "logo": "../src/assets/images/clubs/barcelona.png" },
+    { "jugador": "Rodrigo Riquelme", "equipo": "Atlético de Madrid", "asistencias": 8, "logo": "../src/assets/images/clubs/atletico_madrid.png" },
+    { "jugador": "Sávio", "equipo": "Girona FC", "asistencias": 8, "logo": "../src/assets/images/clubs/girona.png" },
+    { "jugador": "Federico Valverde", "equipo": "Real Madrid", "asistencias": 7, "logo": "../src/assets/images/clubs/real_madrid.png" }
   ],
   "PREMIER LEAGUE": [
-    { "jugador": "Kevin De Bruyne", "equipo": "Manchester City", "asistencias": 12 },
-    { "jugador": "Bukayo Saka", "equipo": "Arsenal", "asistencias": 11 },
-    { "jugador": "Mohamed Salah", "equipo": "Liverpool", "asistencias": 10 },
-    { "jugador": "Bruno Fernandes", "equipo": "Manchester United", "asistencias": 9 },
-    { "jugador": "Phil Foden", "equipo": "Manchester City", "asistencias": 8 }
+    { "jugador": "Kevin De Bruyne", "equipo": "Manchester City", "asistencias": 12, "logo": "../src/assets/images/clubs/manchester_city.png" },
+    { "jugador": "Bukayo Saka", "equipo": "Arsenal", "asistencias": 11, "logo": "../src/assets/images/clubs/arsenal.png" },
+    { "jugador": "Mohamed Salah", "equipo": "Liverpool", "asistencias": 10, "logo": "../src/assets/images/clubs/liverpool.png" },
+    { "jugador": "Bruno Fernandes", "equipo": "Manchester United", "asistencias": 9, "logo": "../src/assets/images/clubs/manchester_united.png" },
+    { "jugador": "Phil Foden", "equipo": "Manchester City", "asistencias": 8, "logo": "../src/assets/images/clubs/manchester_city.png" }
   ],
   "SERIE A": [
-    { "jugador": "Khvicha Kvaratskhelia", "equipo": "Napoli", "asistencias": 10 },
-    { "jugador": "Federico Chiesa", "equipo": "Juventus", "asistencias": 9 },
-    { "jugador": "Lautaro Martínez", "equipo": "Inter", "asistencias": 8 },
-    { "jugador": "Paulo Dybala", "equipo": "Roma", "asistencias": 8 },
-    { "jugador": "Christian Pulisic", "equipo": "AC Milan", "asistencias": 7 }
+    { "jugador": "Khvicha Kvaratskhelia", "equipo": "Napoli", "asistencias": 10, "logo": "../src/assets/images/clubs/napoli.png" },
+    { "jugador": "Federico Chiesa", "equipo": "Juventus", "asistencias": 9, "logo": "../src/assets/images/clubs/juventus.png" },
+    { "jugador": "Lautaro Martínez", "equipo": "Inter", "asistencias": 8, "logo": "../src/assets/images/clubs/inter.png" },
+    { "jugador": "Paulo Dybala", "equipo": "Roma", "asistencias": 8, "logo": "../src/assets/images/clubs/roma.png" },
+    { "jugador": "Christian Pulisic", "equipo": "AC Milan", "asistencias": 7, "logo": "../src/assets/images/clubs/acmilan.png" }
   ],
   "BUNDESLIGA": [
-    { "jugador": "Jamal Musiala", "equipo": "Bayern Munich", "asistencias": 11 },
-    { "jugador": "Florian Wirtz", "equipo": "Bayer Leverkusen", "asistencias": 10 },
-    { "jugador": "Leroy Sané", "equipo": "Bayern Munich", "asistencias": 9 },
-    { "jugador": "Julian Brandt", "equipo": "Borussia Dortmund", "asistencias": 8 },
-    { "jugador": "Xavi Simons", "equipo": "RB Leipzig", "asistencias": 8 }
+    { "jugador": "Jamal Musiala", "equipo": "Bayern Munich", "asistencias": 11, "logo": "../src/assets/images/clubs/bayern.png" },
+    { "jugador": "Florian Wirtz", "equipo": "Bayer Leverkusen", "asistencias": 10, "logo": "../src/assets/images/clubs/bayer_leverkusen.png" },
+    { "jugador": "Leroy Sané", "equipo": "Bayern Munich", "asistencias": 9, "logo": "../src/assets/images/clubs/bayern.png" },
+    { "jugador": "Julian Brandt", "equipo": "Borussia Dortmund", "asistencias": 8, "logo": "../src/assets/images/clubs/borussia_dortmund.png" },
+    { "jugador": "Xavi Simons", "equipo": "RB Leipzig", "asistencias": 8, "logo": "../src/assets/images/clubs/rb_leipzig.png" }
   ],
   "LIGUE 1": [
-    { "jugador": "Kylian Mbappé", "equipo": "PSG", "asistencias": 9 },
-    { "jugador": "Rayan Cherki", "equipo": "Lyon", "asistencias": 8 },
-    { "jugador": "Jonathan David", "equipo": "Lille", "asistencias": 8 },
-    { "jugador": "Achraf Hakimi", "equipo": "PSG", "asistencias": 7 },
-    { "jugador": "Takumi Minamino", "equipo": "AS Monaco", "asistencias": 7 }
+    { "jugador": "Kylian Mbappé", "equipo": "PSG", "asistencias": 9, "logo": "../src/assets/images/clubs/psg.png" },
+    { "jugador": "Rayan Cherki", "equipo": "Lyon", "asistencias": 8, "logo": "../src/assets/images/clubs/lyon.png" },
+    { "jugador": "Jonathan David", "equipo": "Lille", "asistencias": 8, "logo": "../src/assets/images/clubs/lille.png" },
+    { "jugador": "Achraf Hakimi", "equipo": "PSG", "asistencias": 7, "logo": "../src/assets/images/clubs/psg.png" },
+    { "jugador": "Takumi Minamino", "equipo": "AS Monaco", "asistencias": 7, "logo": "../src/assets/images/clubs/monaco.png" }
   ],
   "MLS": [
-    { "jugador": "Lionel Messi", "equipo": "Inter Miami", "asistencias": 13 },
-    { "jugador": "Hany Mukhtar", "equipo": "Nashville SC", "asistencias": 11 },
-    { "jugador": "Carles Gil", "equipo": "New England Revolution", "asistencias": 10 },
-    { "jugador": "Luciano Acosta", "equipo": "FC Cincinnati", "asistencias": 9 },
-    { "jugador": "Denis Bouanga", "equipo": "LAFC", "asistencias": 8 }
+    { "jugador": "Lionel Messi", "equipo": "Inter Miami", "asistencias": 13, "logo": "../src/assets/images/clubs/inter_miami.png" },
+    { "jugador": "Thiago Almada", "equipo": "Atlanta United", "asistencias": 11, "logo": "../src/assets/images/clubs/atlanta_united.png" },
+    { "jugador": "Carles Gil", "equipo": "New England Revolution", "asistencias": 10, "logo": "../src/assets/images/clubs/new_england_revolution.png" },
+    { "jugador": "Cucho Hernández", "equipo": "Columbus Crew", "asistencias": 9, "logo": "../src/assets/images/clubs/columbus_crew.png" },
+    { "jugador": "Denis Bouanga", "equipo": "LAFC", "asistencias": 8, "logo": "../src/assets/images/clubs/lafc.png" }
   ],
   "LIGA AFA": [
-    { "jugador": "Cristian Medina", "equipo": "Boca Juniors", "asistencias": 8 },
-    { "jugador": "Esequiel Barco", "equipo": "River Plate", "asistencias": 7 },
-    { "jugador": "Benjamín Rollheiser", "equipo": "Estudiantes", "asistencias": 7 },
-    { "jugador": "Santiago Rodríguez", "equipo": "Defensa y Justicia", "asistencias": 6 },
-    { "jugador": "Matías Rojas", "equipo": "Racing Club", "asistencias": 6 }
+    { "jugador": "Cristian Medina", "equipo": "Boca Juniors", "asistencias": 8, "logo": "../src/assets/images/clubs/boca.png" },
+    { "jugador": "Esequiel Barco", "equipo": "River Plate", "asistencias": 7, "logo": "../src/assets/images/clubs/river.png" },
+    { "jugador": "Benjamín Rollheiser", "equipo": "Estudiantes", "asistencias": 7, "logo": "../src/assets/images/clubs/estudiantes.png" },
+    { "jugador": "Santiago Rodríguez", "equipo": "Defensa y Justicia", "asistencias": 6, "logo": "../src/assets/images/clubs/defensa_y_justicia.png" },
+    { "jugador": "Matías Rojas", "equipo": "Racing Club", "asistencias": 6, "logo": "../src/assets/images/clubs/racing_club.png" }
   ],
   "BRASILEIRAO": [
-    { "jugador": "Giorgian De Arrascaeta", "equipo": "Flamengo", "asistencias": 9 },
-    { "jugador": "Raphael Veiga", "equipo": "Palmeiras", "asistencias": 8 },
-    { "jugador": "Paulinho", "equipo": "Atlético Mineiro", "asistencias": 8 },
-    { "jugador": "Vitor Roque", "equipo": "Athletico Paranaense", "asistencias": 7 },
-    { "jugador": "Yeferson Soteldo", "equipo": "Santos", "asistencias": 7 }
+    { "jugador": "Giorgian De Arrascaeta", "equipo": "Flamengo", "asistencias": 9, "logo": "../src/assets/images/clubs/flamengo.png" },
+    { "jugador": "Raphael Veiga", "equipo": "Palmeiras", "asistencias": 8, "logo": "../src/assets/images/clubs/palmeiras.png" },
+    { "jugador": "Paulinho", "equipo": "Atlético Mineiro", "asistencias": 8, "logo": "../src/assets/images/clubs/atletico_mineiro.png" },
+    { "jugador": "Vitor Roque", "equipo": "Athletico Paranaense", "asistencias": 7, "logo": "../src/assets/images/clubs/athletico_paranaense.png" },
+    { "jugador": "Yeferson Soteldo", "equipo": "Santos", "asistencias": 7, "logo": "../src/assets/images/clubs/santos.png" }
   ]
-}  
+}

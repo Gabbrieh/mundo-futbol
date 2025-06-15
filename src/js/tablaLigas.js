@@ -81,7 +81,10 @@ botones.forEach((btn, index) => {
         ${goleadores.map(g => `
           <div class="fila">
             <div>${g.jugador}</div>
-            <div>${g.equipo}</div>
+            <div class="equipo-con-logo">
+              ${g.logo ? `<img src="${g.logo}" alt="${g.equipo}" class="logo-equipo">` : ''}
+              ${g.equipo}
+            </div>
             <div>${g.goles}</div>
           </div>
         `).join('')}
@@ -102,7 +105,10 @@ botones.forEach((btn, index) => {
         ${asistencias.map(a => `
           <div class="fila">
             <div>${a.jugador}</div>
-            <div>${a.equipo}</div>
+            <div class="equipo-con-logo">
+              ${a.logo ? `<img src="${a.logo}" alt="${a.equipo}" class="logo-equipo">` : ''}
+              ${a.equipo}
+            </div>
             <div>${a.asistencias}</div>
           </div>
         `).join('')}
